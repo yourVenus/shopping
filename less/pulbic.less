@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* container的媒循 */
+	// @media all and (min-width:1200px){
+	// 	.container{
+	// 		width:1170px;
+	// 	}
+	//   }	
+	// @media all and (min-width:992px) and (max-width:1200px){
+	// 	.container{
+	// 		width:970px;
+	// 	}
+	//    }
+	// @media all and (min-width:768px) and (max-width:992px){
+	// 	.container{
+	// 		width:750px;
+	// 	}
+	//   }	
+	// @media all and ( max-width:768px){
+	// 	.container{
+	// 		width:100%;
+	// 	}
+	//   }	
+/* 总体宽度 */	  
+.wrap {
+	width: 1519px;
+	background: #f8f8f8;
+	margin: 0 auto;
+	
+	/* 导航 */
+.wrap-pull {
+	height: 46px;
+	background: #ffffff;
+.nav-warp {
+	height: 46px;
+
+	/* logo */
+.logo{
+	width: 94px;
+	height: 100%;
+	float: left;
+	a{
+		float: left; 
+		width: 100%;
+		height: 100%;
+		background: url(../img/logo.png) no-repeat 50% 50%;
+		background-size: 100px 30px;	
+	}
+}
+	/*旧货补款口*/
+.a-one{
+	float: left;
+	width: 71px;
+	height: 100%;
+	margin-left:23px;
+	a{		
+		font-size:12px ;
+		color: #1e1516;
+		float: left;
+		width: 72px;
+		height: 100%;
+		line-height: 46px;
+		text-align: center;
+		text-decoration: none;
+	}
+	a:hover{
+		color: #ff7b3a;
+	}
+}
+	/*优惠卷*/
+.a-two{
+	float: left;
+	width: 71px;
+	height: 100%;
+	margin-left:20px;
+	a{
+		font-size:12px ;
+		color: #1e1516;
+		float: left;
+		width: 100%;
+		height: 100%;
+		line-height: 46px;
+		text-align: center;
+		text-decoration: none;
+	}
+	a:hover{
+		color: #ff7b3a;
+	}
+}
+/*菜单*/
+.one-nav{
+	 li{
+	float: left;
+	padding: 0 10px;
+	height: 100%;
+	text-align: center;
+	line-height: 46px;
+	font-size: 12px;
+	span{
+		float: left;
+		img{
+			width: 14px;
+			height: 14px;
+			margin-right: 5px;
+		}
+	}
+	a{
+		float: left;
+		text-decoration: none;
+		color: #1e1516;
+	}
+	
+}
+/*鼠标事件*/
+li:hover{
+	background:#dddd;
+	a{
+		color: #ff7b3a;
+	}
+}
+}
+
+
+/*登录和注册*/
+.two-nav{
+	 li{
+		float: left;
+		padding: 0 10px;
+		height: 15px;
+		text-align: center;
+		font-size: 12px;
+		a{
+			float: left;
+			text-decoration: none;
+			color: #1e1516;
+		}
+		a:hover{
+			color: #ff7b3a;
+		}
+	}
+	li:nth-of-type(1){
+		border-right: 1px solid #000000;
+		margin-top: 14px;
+	}
+	li:nth-of-type(2){
+		margin-top: 14px;
+	}
+	
+}
+
+	}
+	}
+/*搜索框图*/
+.header-banner{
+	width: 100%;
+	height: 180px;
+	position: relative;
+	background: url(http://staticv4.anitoys.com/static/img/home-banner01.74f7924.jpg) no-repeat 50% 50%;
+	
+	background-size: auto 180px;
+	
+	.search{
+		width: 447px;
+		height: 49px;
+		position: absolute;
+		bottom: 50px;
+		right:175px;
+		input{
+			width: 394px;
+			height: 45px;
+			border: 2px solid #ff7b3a;
+			border-top-left-radius :3px;
+			border-bottom-left-radius:3px;
+			text-indent: 10px;
+		}
+		button{
+			height: 45px;
+			width: 45px;
+			background: #ff7b3a;
+			border-top-right-radius :3px;
+			border-bottom-right-radius:3px;
+			border:none;
+			img{
+				width: 20px;
+				height: 20px;
+				
+			}
+		}
+	}
+}
+/*商品菜单*/
+.menu{
+	height: 90px;
+	background: #ffffff;
+	width:100% ;
+	
+.menu-content{
+	width:1180px;
+	height: 100%;
+	margin: 0 auto;
+ /*每个div的大小*/
+.item{
+	width: 90px;
+	height: 90px;
+	float: left;
+	// background: red;
+	margin: 0 4px;
+/* a标签中包裹着图片和字体*/
+a{
+	display: block;
+	margin-top: 14px;
+	width: 100%;
+	text-decoration: none;
+	height: 64px;
+	color:#29033e;
+/*包裹图片的标签*/
+	i{
+		display: block;
+		width: 36px;
+		height: 36px;
+		// background: url(../img/index.png) no-repeat 50% 50%;
+		// background-size:24px 24px;
+		margin: 0 auto;
+	}
+/*包裹字体的标签*/	
+	b{
+		display: block;
+		font-size: 14px;
+		text-align: center;
+		line-height:28px;
+		font-weight: 500;
+	}
+}	
+}		
+	}
+}
+/*轮播图整体*/
+.banner-box{
+	width: 1180px;
+	overflow: hidden;
+	margin: 0 auto;
+	
+	.banner-content{
+		padding-top: 20px;
+		margin-right: -20px;
+		overflow: hidden;
+		.banner{
+			width: 610px;
+			height: 340px;
+			background: greenyellow;
+			float: left;
+		}
+		.qr-code{
+			width: 240px;
+			height: 340px;
+			background: url(http://uploadv3.anitoys.com/anitoys/images/test/20190806/2dtwqyn9sfn9ww3wd301h5947q0a2eon.jpg);
+			background-size: 100% 100%;
+			margin-left: 20px;
+			float: left;
+			
+		}
+		.exhibits{ 
+			float: left;
+			width: 290px;
+			height: 340px;
+			background:url(http://uploadv3.anitoys.com/anitoys/images/test/20191104/pjll1i77e7ab2w33lp6wp4aye9vrbs91.jpg) !important;
+			margin-left: 20px;
+			background: 100% 100%;
+		}
+	}
+}
+}

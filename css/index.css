@@ -1,0 +1,307 @@
+@charset "utf-8";
+.news {
+  width: 1180px;
+  margin: 20px auto;
+  background: #ffff;
+  padding: 6px 0;
+  line-height: 26px;
+  color: #808388;
+  overflow: hidden;
+}
+.news h4 {
+  font-size: 14px;
+  color: #ff6a2d;
+  padding: 0 30px;
+  float: left;
+  font-weight: 600;
+}
+.news .item {
+  float: left;
+  color: #808388;
+  font-size: 12px;
+  padding: 0 32px;
+  min-width: 180px;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 14px;
+  border-left: 1px solid #808388;
+  text-decoration: none;
+}
+.news .item:hover {
+  color: #ff6a2d;
+}
+.news .more {
+  float: right;
+  color: #ff6a2d;
+  font-size: 13px;
+  padding: 0 15px;
+  margin-top: 5px;
+  text-decoration: none;
+}
+.coupon {
+  width: 1180px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0 20px;
+  overflow: hidden;
+  line-height: 26px;
+}
+.coupon h4 {
+  float: left;
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: -15px;
+}
+.coupon p {
+  float: left;
+  font-size: 14px ;
+  margin-left: 14px;
+  color: #ff6a2d;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.coupon .more {
+  float: right;
+  color: #ff6a2d;
+  font-size: 15px;
+  margin-top: 12px;
+  margin-right: -7px;
+  text-decoration: none;
+}
+.coupon-shopping {
+  width: 1180px;
+  height: 266px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 0 ;
+  background: #fff;
+  text-align: center;
+}
+.coupon-shopping #swiper2 {
+  width: 100%;
+  height: 100%;
+}
+.coupon-shopping #swiper2 .swiper-wrapper {
+  width: 1180px;
+}
+.coupon-shopping #swiper2 .swiper-wrapper .swiper-slide {
+  float: left;
+  width: 188px;
+  height: 220px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.coupon-shopping #swiper2 .swiper-wrapper .swiper-slide a::before {
+  content: "";
+  position: absolute;
+  top: 150px;
+  right: 90px;
+  width: 16px;
+  height: 16px;
+  border-radius: 9em;
+  background: #fff;
+  z-index: 999;
+}
+.coupon-shopping #swiper2 .swiper-wrapper .swiper-slide a {
+  height: 220px;
+  background: red;
+  overflow: hidden;
+  text-decoration: none;
+  position: relative;
+}
+.coupon-shopping #swiper2 .swiper-wrapper .swiper-slide a img {
+  display: block;
+  height: 70px;
+  width: 70px;
+  border-radius: 80%;
+  margin: 15px auto 8px;
+}
+.coupon-shopping #swiper2 .swiper-wrapper .swiper-slide a h3 {
+  font-size: 38px;
+  color: #ff6a2d ;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 2px;
+}
+.coupon-shopping #swiper2 .swiper-wrapper .swiper-slide a h4 {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 800;
+  color: black;
+}
+.coupon-shopping #swiper2 .swiper-wrapper .swiper-slide a p {
+  color: #838487;
+  bottom: 10px;
+  text-align: center;
+  padding: 0 20px;
+}
+.coupon-shopping #swiper2 .swiper-wrapper .swiper-slide a::after {
+  content: "";
+  position: absolute;
+  top: 150px;
+  left: 90px;
+  width: 16px;
+  height: 16px;
+  border-radius: 9em;
+  background: #fff;
+  z-index: 999;
+}
+.groundfloor-shop {
+  background: #fff;
+  margin-top: 15px;
+  height: 500px;
+}
+.groundfloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.groundfloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.groundfloor-shop .content #swiper3 {
+  width: 100%;
+  height: 100%;
+}
+.groundfloor-shop .content #swiper3 .swiper-wrapper {
+  width: 1180px;
+}
+.groundfloor-shop .content #swiper3 .swiper-wrapper .swiper-slide {
+  width: 300px;
+  height: 400px;
+}
+.groundfloor-shop .content #swiper3 .swiper-wrapper .swiper-slide a {
+  text-decoration: none;
+  overflow: hidden;
+  height: 400px;
+}
+.groundfloor-shop .content #swiper3 .swiper-wrapper .swiper-slide a img {
+  width: 280px ;
+  height: 280px ;
+  display: block;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+}
+.groundfloor-shop .content #swiper3 .swiper-wrapper .swiper-slide a h3 {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+.groundfloor-shop .content #swiper3 .swiper-wrapper .swiper-slide a h4 {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  color: #ff6a2d;
+}
+.ticketing {
+  margin-top: 15px;
+  height: 500px;
+}
+.ticketing .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.ticketing .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.ticketing .content #swiper4 {
+  width: 100%;
+  height: 100%;
+}
+.ticketing .content #swiper4 .swiper-wrapper {
+  width: 1180px;
+}
+.ticketing .content #swiper4 .swiper-wrapper .swiper-slide {
+  width: 300px;
+  height: 400px;
+}
+.ticketing .content #swiper4 .swiper-wrapper .swiper-slide a {
+  text-decoration: none;
+  overflow: hidden;
+  height: 400px;
+}
+.ticketing .content #swiper4 .swiper-wrapper .swiper-slide a img {
+  width: 280px ;
+  height: 280px ;
+  display: block;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+}
+.ticketing .content #swiper4 .swiper-wrapper .swiper-slide a h3 {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+.ticketing .content #swiper4 .swiper-wrapper .swiper-slide a h4 {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  color: #ff6a2d;
+}
+.secondfloor-shop {
+  background: #fff;
+  margin-top: 15px;
+  height: 500px;
+}
+.secondfloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.secondfloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.secondfloor-shop .content #swiper5 {
+  width: 100%;
+  height: 100%;
+}
+.secondfloor-shop .content #swiper5 .swiper-wrapper {
+  width: 1180px;
+}
+.secondfloor-shop .content #swiper5 .swiper-wrapper .swiper-slide {
+  width: 300px;
+  height: 400px;
+}
+.secondfloor-shop .content #swiper5 .swiper-wrapper .swiper-slide a {
+  text-decoration: none;
+  overflow: hidden;
+  height: 400px;
+}
+.secondfloor-shop .content #swiper5 .swiper-wrapper .swiper-slide a img {
+  width: 280px ;
+  height: 280px ;
+  display: block;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+}
+.secondfloor-shop .content #swiper5 .swiper-wrapper .swiper-slide a h3 {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+.secondfloor-shop .content #swiper5 .swiper-wrapper .swiper-slide a h4 {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  color: #ff6a2d;
+}

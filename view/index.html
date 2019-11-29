@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">  
+		<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">    
+		<script src="https://unpkg.com/swiper/js/swiper.js"> </script>  
+		<script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/pulbic.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/index.css">
+		<script type="text/javascript" src="../js/data.js"></script>
+		<script type="text/javascript" src="../js/jQuery.js"></script>
+		<link rel="icon" href="http://uploadv3.anitoys.com/anitoys/images/test/20190425/v03rsu2s096v1z5psligk6u1k81u4hmm.png">
+		<title>首页 - aniToys动漫商城</title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			.swiper-container {
+			width: 610px;
+			height: 340px; 
+			/* --swiper-navigation-color: #00ff33;
+			--swiper-navigation-size: 10px; */
+			}
+			/* 后退按钮样式 */
+			.swiper-button-prev{
+				
+				background: url("http://masadora-js.masadora.net/masadora_omega/static/images/view-home-good-slide-before@2x.png") 50% 50% no-repeat;
+				background-size: 28px 28px;
+				opacity: 0.2;
+				z-index: 99;
+			}
+			.swiper-button-prev:hover{
+				opacity: 1;
+			}
+			.swiper-button-prev::after{
+				content: '';
+			}
+			/* 前进按钮样式 */
+			.swiper-button-next{
+			
+				background: url("http://masadora-js.masadora.net/masadora_omega/static/images/view-home-good-slide-after@2x.png") 50% 50% no-repeat;
+				background-size:  28px 28px;
+				opacity: 0.2;
+				z-index: 99;
+				
+			}
+			.swiper-button-next:hover{
+				opacity: 1;
+			}
+			.swiper-button-next::after{
+				content: '';
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<!-- 导航 -->
+			<div class="wrap-pull">
+				<div class="container">
+					<div class="nav-warp">
+						<!-- logo部分 -->
+						<div class="logo">
+							<a href="index.html">
+							</a>
+						</div>
+						<!-- 左边菜单 -->
+						<div class="a-one">
+							<a href="">旧货补款入口</a>
+						</div>
+						<div class="a-two">
+							<a href="">优惠卷</a>
+						</div>
+					
+						<!-- 登录和注册 -->
+						<ul class="two-nav pull-right list-unstyled visible-lg visible-md">
+							<li><a href="">登录</a></li>
+							<li><a href="">注册</a></li>
+						</ul>	
+						<!-- 右边菜单 -->
+						<ul class="one-nav list-unstyled pull-right visible-lg visible-md">
+							<li><span><img src="../img/购物车.png" ></span> <a href="">购物车</a></li>
+							<li><a href="">我的订单</a></li>
+							<li><a href="">我的aniToys</a></li>
+							<li><span><img src="../img/联系客服.png" ></span><a href="">联系客服</a></li>
+							<li><a href="">站内信</a></li>
+							<li><a href="">关于我们</a></li>
+							<li><span><img src="../img/手机版.png" ></span><a href="">手机版</a></li>
+						</ul>
+					<a href="#" class=" visible-sm visible-xs" style="float: right;margin-top: 3%;">
+						<span class="glyphicon glyphicon-align-justify"></span>
+					</a>
+					</div>
+					
+				</div>
+			</div>
+			<!-- 头部轮播 -->
+			<div class="header-banner">
+				<div class="search ">
+					<button type="button" class="pull-right "><span><img src="../img/搜索.png" ></span></button>
+					<input type="text"  value="" placeholder="搜索关键字" class="pull-right"/>
+				</div>
+			</div>
+			<!-- 菜单 -->
+			<div class="menu">
+				<div class="menu-content">
+					<!-- 数据渲染生成多个div -->
+				</div>
+				</div>
+				
+				<!-- 轮播图整体 -->
+				<div class="banner-box">
+					<!-- 轮播整体里的内容 -->
+					<div class="banner-content">
+						<!-- 轮播图 -->
+						<div class="banner">
+							<div class="swiper-container" id="swiper1">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide"><img src="http://uploadv3.anitoys.com/anitoys/images/test/20190805/73vrdqsk475243jcf6w3i212h0uumjlp.jpg" ></div>
+									<div class="swiper-slide"><img src="http://uploadv3.anitoys.com/anitoys/images/test/20191126/zdse9xyz15ho3iq79s4qyf2nek5wgd0h.jpg" ></div>
+									<div class="swiper-slide"><img src="http://uploadv3.anitoys.com/anitoys/images/test/20191113/l3aj8ig26r5j8u05h7z1pfu26d5bt2g7.jpg" ></div>
+									<div class="swiper-slide"><img src="http://uploadv3.anitoys.com/anitoys/images/test/20191113/q9rlbha4lkfj9zyquox1np45mln61pp8.jpg" ></div>
+									<div class="swiper-slide"><img src="http://uploadv3.anitoys.com/anitoys/images/test/20191106/ot8bp36dpieacq08nk5ci7pdfxy4v1tt.jpg" ></div>
+									<div class="swiper-slide"><img src="http://uploadv3.anitoys.com/anitoys/images/test/20191101/i0deatoi0gjpun2myiqgd0kb3azdx9dc.jpg" ></div>
+									<div class="swiper-slide"><img src="http://uploadv3.anitoys.com/anitoys/images/test/20191101/e1orp6ogmrs8tpe5vdotbqljnp4t0avc.jpg" ></div>
+									<div class="swiper-slide"><img src="http://uploadv3.anitoys.com/anitoys/images/test/20191018/1zn7j5mmp1jc3qzh3gkpl5930thwxy0q.jpg"></div>
+									<div class="swiper-slide"><img src="http://uploadv3.anitoys.com/anitoys/images/test/20191113/itrdhov2thykfmhwk7iwmdwhl3yr43sy.jpg"></div>
+									<div class="swiper-slide"><img src="http://uploadv3.anitoys.com/anitoys/images/test/20191008/1ydt0nrbk47uxq97n0emmrdgra9re4q8.jpg"></div>
+									<div class="swiper-slide"><img src="http://uploadv3.anitoys.com/anitoys/images/test/20190920/it7pf3p780z3akhp0hkf4aq7ht2exmpc.jpg"></div>
+									<div class="swiper-slide"><img src="http://uploadv3.anitoys.com/anitoys/images/test/20190606/omdm7w2sp5d772i3jqxcdq85jo5589on.jpg"></div>
+								</div>
+								<!-- 如果需要分页器 -->
+								<!-- <div class="swiper-pagination"></div> -->
+								
+								<!-- 如果需要导航按钮 --> 
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+								
+								<!-- 如果需要滚动条 -->
+								<!-- <div class="swiper-scrollbar"></div> -->
+							</div>
+						</div>
+						<!-- 二维码 -->
+						<a href="" class="qr-code"></a>
+						<!-- 展品 -->
+						<a href="" class="exhibits"></a>
+					</div>
+				</div>
+
+				<!-- 最新情报 -->
+				<div class="news">
+					<h4>最新消息</h4>
+					<a class="item" href="" >aniToys 11月28日 补款汇总</a>
+					<a class="item" href="" >aniToys 11月27日 补款汇总</a>
+					<a class="item" href="" >aniToys 11月22日 补款汇总</a>
+					<a class="item" href="" >aniToys 11月21日 补款汇总</a>
+					<a class="more" href="">查看更多</a>
+				</div>
+
+				<!-- 优惠券 -->
+				<div class="coupon">
+					<h4>优惠券</h4>
+					<p>COUPONS</p>
+					<a class="more" href="">查看更多</a>
+				</div>
+				<!-- 优惠商品 -->
+				<div class="coupon-shopping">
+					<!-- 轮播图 -->
+					<div class="swiper-container" id="swiper2">
+					
+						<div class="swiper-wrapper" >
+							<!-- <div class="swiper-slide">
+								<a href=""><img src="http://uploadv3.anitoys.com/anitoys/images/test/20191126/1z1xxz2mk9j822n16y6ong1loef0u1tl.jpg">
+							    <h3>￥5.0</h3>
+							    <h4>死神专属优惠</h4>
+							    <p>GoodSmile上海阿尼托官方旗舰店</p>
+							     </a>
+						</div> -->
+								
+						</div>
+						<div class="swiper-button-prev" ></div>
+						<div class="swiper-button-next" ></div>
+				</div>
+				</div>
+			
+				<!-- 1F人气商品 -->
+				<div class="groundfloor-shop">
+						
+						<div class="content">
+						<h3>1F 人气商品</h3>
+						<div class="swiper-container" id="swiper3">
+								<div class="swiper-wrapper" >
+									<!-- <div class="swiper-slide">
+										<a href=""><img src="http://uploadv3.anitoys.com/anitoys/images/test/20191121/igwynk2495kgk9d9cb9em9b1r4res812.jpg">
+										<h3>粘土人 欧尔麦特</h3>
+										<h4>￥345.0</h4>
+											</a>
+								</div> -->
+										
+								</div>
+								<div class="swiper-button-prev" ></div>
+								<div class="swiper-button-next" ></div>
+						</div>
+						</div>
+						
+					</div>
+				<!-- 票务贩卖 -->
+				<div class="ticketing">
+					<div class="content">
+						<h3>票务贩售</h3>
+						<div class="swiper-container" id="swiper4">
+								<div class="swiper-wrapper" >
+									<div class="swiper-slide">
+										<a href=""><img src="http://uploadv3.anitoys.com/anitoys/images/test/20191110/ykrhz6afdshkzuqgbese92qzsok8q106.jpg">
+										<h3>心有灵犀！～八代拓&山下诚一郎～声优见面会in上海！</h3>
+										<h4>￥499.0</h4>
+											</a>
+								</div>
+									<div class="swiper-slide">
+										<a href=""><img src="http://uploadv3.anitoys.com/anitoys/images/test/20191122/qefb9ibnb69si9mif6ya3r70h9mvdgnh.jpg">
+										<h3>磯村勇斗2020上海粉丝见面会</h3>
+										<h4>￥380.0</h4>
+											</a>
+								</div>	
+								</div>
+								<div class="swiper-button-prev" ></div>
+								<div class="swiper-button-next" ></div>
+						</div>
+					</div>
+				</div>
+				<!-- 2F商品 -->
+				<div class="secondfloor-shop">
+						<div class="content">
+								<h3>2F 附官方特典商品
+									<a href="" style="float: right;text-decoration: none;font-size: 12px;color: #ff6a2d;">查看更多</a>
+								</h3>
+								
+								<div class="swiper-container" id="swiper5">
+										<div class="swiper-wrapper" >
+											<!-- <div class="swiper-slide">
+												<a href=""><img src="http://uploadv3.anitoys.com/anitoys/images/test/20191110/ykrhz6afdshkzuqgbese92qzsok8q106.jpg">
+												<h3>心有灵犀！～八代拓&山下诚一郎～声优见面会in上海！</h3>
+												<h4>￥499.0</h4>
+													</a>
+										</div> -->
+									
+										</div>
+										<div class="swiper-button-prev" ></div>
+										<div class="swiper-button-next" ></div>
+								</div>
+							</div>
+				</div>
+		</div>
+		<script type="text/javascript" src="../js/index.js"></script>
+		<script type="text/javascript">
+			//第一个轮播图
+			var mySwiperone = new Swiper ('#swiper1', {
+				direction: 'horizontal', // 垂直切换选项
+				loop: true, // 循环模式选项
+				
+				// 如果需要分页器
+				pagination: {
+				el: '.swiper-pagination',
+				},
+				
+				// 如果需要前进后退按钮
+				navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+				},
+				
+				// 如果需要滚动条
+				// scrollbar: {
+				// el: '.swiper-scrollbar',
+				// },
+				//切换效果
+			 effect : 'slide',
+			
+			autoplay: {
+				//自动切换时间间隔
+			    delay: 3000,
+			    stopOnLastSlide: false,
+			    disableOnInteraction: false,
+			    },
+				//切换过程动画时间
+				speed:500,
+			
+			});
+			//第二个轮播图
+			var mySwipertwo = new Swiper('#swiper2',{
+				direction: 'horizontal', // 垂直切换选项
+				loop: true, // 循环模式选项
+				slidesPerView : 6,
+				slidesPerGroup : 6,
+				slidesOffsetBefore : 80,
+				slidesOffsetAfter : 580,
+				
+				navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+				},
+				effect : 'slide',
+				autoplay: {
+				//自动切换时间间隔
+			    delay: 3000,
+			    stopOnLastSlide: false,
+			    disableOnInteraction: false,
+			    },
+				//切换过程动画时间
+				speed:500,
+				})
+			//第三个轮播图
+			var mySwiperthree = new Swiper('#swiper3',{
+				
+				direction: 'horizontal', // 垂直切换选项
+				loop: true, // 循环模式选项
+				 slidesPerView : 4,
+				 slidesPerGroup : 4,
+				 slidesOffsetAfter : 580,
+				navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+				},
+				effect : 'slide',
+				autoplay: {
+				//自动切换时间间隔
+			    delay: 3000,
+			    stopOnLastSlide: false,
+			    disableOnInteraction: false,
+			    },
+				//切换过程动画时间
+				speed:500,
+				})
+				//第四个轮播图
+				var mySwiperfour = new Swiper('#swiper5',{
+				
+				direction: 'horizontal', // 垂直切换选项
+				loop: true, // 循环模式选项
+				 slidesPerView : 4,
+				 slidesPerGroup : 4,
+				 slidesOffsetAfter : 580,
+				navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+				},
+				effect : 'slide',
+				autoplay: {
+				//自动切换时间间隔
+			    delay: 3000,
+			    stopOnLastSlide: false,
+			    disableOnInteraction: false,
+			    },
+				//切换过程动画时间
+				speed:500,
+				})
+		</script>
+	
+	</body>
+</html>

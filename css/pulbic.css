@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* container的媒循 */
+/* 总体宽度 */
+.wrap {
+  width: 1519px;
+  background: #f8f8f8;
+  margin: 0 auto;
+  /* 导航 */
+  /*搜索框图*/
+  /*商品菜单*/
+  /*轮播图整体*/
+}
+.wrap .wrap-pull {
+  height: 46px;
+  background: #ffffff;
+}
+.wrap .wrap-pull .nav-warp {
+  height: 46px;
+  /* logo */
+  /*旧货补款口*/
+  /*优惠卷*/
+  /*菜单*/
+  /*登录和注册*/
+}
+.wrap .wrap-pull .nav-warp .logo {
+  width: 94px;
+  height: 100%;
+  float: left;
+}
+.wrap .wrap-pull .nav-warp .logo a {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: url(../img/logo.png) no-repeat 50% 50%;
+  background-size: 100px 30px;
+}
+.wrap .wrap-pull .nav-warp .a-one {
+  float: left;
+  width: 71px;
+  height: 100%;
+  margin-left: 23px;
+}
+.wrap .wrap-pull .nav-warp .a-one a {
+  font-size: 12px ;
+  color: #1e1516;
+  float: left;
+  width: 72px;
+  height: 100%;
+  line-height: 46px;
+  text-align: center;
+  text-decoration: none;
+}
+.wrap .wrap-pull .nav-warp .a-one a:hover {
+  color: #ff7b3a;
+}
+.wrap .wrap-pull .nav-warp .a-two {
+  float: left;
+  width: 71px;
+  height: 100%;
+  margin-left: 20px;
+}
+.wrap .wrap-pull .nav-warp .a-two a {
+  font-size: 12px ;
+  color: #1e1516;
+  float: left;
+  width: 100%;
+  height: 100%;
+  line-height: 46px;
+  text-align: center;
+  text-decoration: none;
+}
+.wrap .wrap-pull .nav-warp .a-two a:hover {
+  color: #ff7b3a;
+}
+.wrap .wrap-pull .nav-warp .one-nav {
+  /*鼠标事件*/
+}
+.wrap .wrap-pull .nav-warp .one-nav li {
+  float: left;
+  padding: 0 10px;
+  height: 100%;
+  text-align: center;
+  line-height: 46px;
+  font-size: 12px;
+}
+.wrap .wrap-pull .nav-warp .one-nav li span {
+  float: left;
+}
+.wrap .wrap-pull .nav-warp .one-nav li span img {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+.wrap .wrap-pull .nav-warp .one-nav li a {
+  float: left;
+  text-decoration: none;
+  color: #1e1516;
+}
+.wrap .wrap-pull .nav-warp .one-nav li:hover {
+  background: #dddd;
+}
+.wrap .wrap-pull .nav-warp .one-nav li:hover a {
+  color: #ff7b3a;
+}
+.wrap .wrap-pull .nav-warp .two-nav li {
+  float: left;
+  padding: 0 10px;
+  height: 15px;
+  text-align: center;
+  font-size: 12px;
+}
+.wrap .wrap-pull .nav-warp .two-nav li a {
+  float: left;
+  text-decoration: none;
+  color: #1e1516;
+}
+.wrap .wrap-pull .nav-warp .two-nav li a:hover {
+  color: #ff7b3a;
+}
+.wrap .wrap-pull .nav-warp .two-nav li:nth-of-type(1) {
+  border-right: 1px solid #000000;
+  margin-top: 14px;
+}
+.wrap .wrap-pull .nav-warp .two-nav li:nth-of-type(2) {
+  margin-top: 14px;
+}
+.wrap .header-banner {
+  width: 100%;
+  height: 180px;
+  position: relative;
+  background: url(http://staticv4.anitoys.com/static/img/home-banner01.74f7924.jpg) no-repeat 50% 50%;
+  background-size: auto 180px;
+}
+.wrap .header-banner .search {
+  width: 447px;
+  height: 49px;
+  position: absolute;
+  bottom: 50px;
+  right: 175px;
+}
+.wrap .header-banner .search input {
+  width: 394px;
+  height: 45px;
+  border: 2px solid #ff7b3a;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  text-indent: 10px;
+}
+.wrap .header-banner .search button {
+  height: 45px;
+  width: 45px;
+  background: #ff7b3a;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: none;
+}
+.wrap .header-banner .search button img {
+  width: 20px;
+  height: 20px;
+}
+.wrap .menu {
+  height: 90px;
+  background: #ffffff;
+  width: 100% ;
+}
+.wrap .menu .menu-content {
+  width: 1180px;
+  height: 100%;
+  margin: 0 auto;
+  /*每个div的大小*/
+}
+.wrap .menu .menu-content .item {
+  width: 90px;
+  height: 90px;
+  float: left;
+  margin: 0 4px;
+  /* a标签中包裹着图片和字体*/
+}
+.wrap .menu .menu-content .item a {
+  display: block;
+  margin-top: 14px;
+  width: 100%;
+  text-decoration: none;
+  height: 64px;
+  color: #29033e;
+  /*包裹图片的标签*/
+  /*包裹字体的标签*/
+}
+.wrap .menu .menu-content .item a i {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto;
+}
+.wrap .menu .menu-content .item a b {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  line-height: 28px;
+  font-weight: 500;
+}
+.wrap .banner-box {
+  width: 1180px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.wrap .banner-box .banner-content {
+  padding-top: 20px;
+  margin-right: -20px;
+  overflow: hidden;
+}
+.wrap .banner-box .banner-content .banner {
+  width: 610px;
+  height: 340px;
+  background: greenyellow;
+  float: left;
+}
+.wrap .banner-box .banner-content .qr-code {
+  width: 240px;
+  height: 340px;
+  background: url(http://uploadv3.anitoys.com/anitoys/images/test/20190806/2dtwqyn9sfn9ww3wd301h5947q0a2eon.jpg);
+  background-size: 100% 100%;
+  margin-left: 20px;
+  float: left;
+}
+.wrap .banner-box .banner-content .exhibits {
+  float: left;
+  width: 290px;
+  height: 340px;
+  background: url(http://uploadv3.anitoys.com/anitoys/images/test/20191104/pjll1i77e7ab2w33lp6wp4aye9vrbs91.jpg) !important;
+  margin-left: 20px;
+  background: 100% 100%;
+}

@@ -1,0 +1,337 @@
+@charset "utf-8";
+//  最新情报
+.news{
+    width: 1180px;
+    margin: 20px auto;
+    background:#ffff;
+    padding: 6px 0;
+    line-height: 26px;
+    color: #808388;
+     overflow: hidden;
+    
+    h4{
+        font-size: 14px;
+        color: #ff6a2d;
+        padding: 0 30px;
+        float: left;
+        font-weight: 600;
+    }
+    .item{
+        float: left;
+        color: #808388;
+        font-size: 12px;
+        padding: 0 32px;
+        min-width: 180px;
+        overflow: hidden;
+        text-align: center;
+        margin-top: 10px;
+        line-height: 14px;
+        border-left: 1px solid #808388;
+        text-decoration: none;
+        
+    }
+    .item:hover{
+        color: #ff6a2d;
+    }
+    .more{
+        float: right;
+        color: #ff6a2d;
+        font-size: 13px;
+        padding: 0 15px;
+        margin-top: 5px;
+        text-decoration: none;
+    }
+}
+//优惠卷
+.coupon{
+    width: 1180px;
+    margin:  auto;
+    margin-top: 20px;
+   // background: green;
+    padding: 0 20px;
+    overflow: hidden;
+    line-height: 26px;
+    h4{
+        float: left;
+        font-size: 22px;
+        font-weight: 600;
+        margin-left: -15px;
+    }
+    p{
+        float: left;
+        font-size:14px ;
+        margin-left: 14px;
+        color:#ff6a2d;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+    .more{
+        float: right;
+        color: #ff6a2d;
+        font-size: 15px;
+        //padding: 0 0;
+        margin-top: 12px;
+        margin-right: -7px;
+        text-decoration: none;
+    }
+}
+//优惠商品
+.coupon-shopping{
+    width: 1180px;
+    height: 266px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0 ;
+    background: #fff;
+    text-align: center;
+   
+    #swiper2{
+        width: 100%;
+        height: 100%;
+       
+        .swiper-wrapper{
+            width: 1180px;
+           
+            .swiper-slide{
+                float: left;
+                width: 188px;
+                height: 220px;
+                
+                border-radius: 6px;
+                overflow: hidden;
+               //半圆
+                a::before{
+                    content: "";
+                    position: absolute;
+                    top: 150px;
+                    right: 90px;
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 9em;
+                    background:#fff;
+                    z-index: 999;
+                   
+                }        
+                a{
+                   //width: 188px;
+                   height:  220px;
+                   background: red; 
+                   overflow: hidden;
+                   text-decoration: none;
+                   position: relative;
+                   
+                   img{
+                       display: block;
+                       height: 70px;
+                       width: 70px;
+                       border-radius: 80%;
+                       margin: 15px auto 8px;
+                   }
+                   h3{
+                       font-size: 38px;
+                       color:#ff6a2d ;
+                       font-weight: 800;
+                      text-align: center;
+                      margin-top: 2px;
+                   }
+                   h4{
+                       font-size: 14px;
+                       text-align: center;
+                       font-weight: 800;
+                       color: black;
+                   }
+                   p{
+                  
+                    color: #838487;
+                    bottom: 10px;
+                    text-align: center;
+                    padding: 0 20px;
+                   }
+                }
+                //半圆
+                a::after{
+                    content: "";
+                    position: absolute;
+                    top: 150px;
+                    left: 90px;
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 9em;
+                    background:#fff;
+                    z-index: 999;
+                    
+                }        
+            
+        }
+        
+        }
+    }
+}
+//1F人气商品
+.groundfloor-shop{
+    background: #fff;
+    margin-top: 15px;
+    height: 500px;
+       .content{
+           width: 1180px;
+           padding: 20px 0;
+           margin: 0 auto;
+           //background: palevioletred;
+           overflow: hidden;
+           h3{
+                font-size: 23px;
+                color: black;
+                font-weight: 800;
+           }
+           #swiper3{
+               width: 100%;
+               height: 100%;
+               .swiper-wrapper{
+                   width: 1180px;
+                   .swiper-slide{
+                       
+                       width: 300px;
+                       height: 400px;
+                       a{
+                           text-decoration: none;
+                           overflow: hidden;
+                           height: 400px;
+                           img{
+                               width:280px ;
+                               height:280px ;
+                               display: block;
+                               border: 1px solid #f1f1f1;
+                               box-sizing: border-box;
+                           }
+                           h3{
+                               margin-top: 25px;
+                               text-align: center;
+                               font-size: 14px;
+                               font-weight: 600;
+                               color: black;
+                           }
+                           h4{
+                            margin-top: 35px;
+                            text-align: center;
+                            font-size: 16px;
+                            font-weight: 800;
+                            color: #ff6a2d;
+                           }
+                       }
+                   }
+               }
+           }
+       }
+}
+//票务贩售
+.ticketing{
+    //background: #838487;
+    margin-top: 15px;
+    height: 500px;
+       .content{
+           width: 1180px;
+           padding: 20px 0;
+           margin: 0 auto;
+           //background: palevioletred;
+           overflow: hidden;
+           h3{
+                font-size: 23px;
+                color: black;
+                font-weight: 800;
+           }
+           #swiper4{
+               width: 100%;
+               height: 100%;
+               .swiper-wrapper{
+                   width: 1180px;
+                   .swiper-slide{
+                       
+                       width: 300px;
+                       height: 400px;
+                       a{
+                           text-decoration: none;
+                           overflow: hidden;
+                           height: 400px;
+                           img{
+                               width:280px ;
+                               height:280px ;
+                               display: block;
+                               border: 1px solid #f1f1f1;
+                               box-sizing: border-box;
+                           }
+                           h3{
+                               margin-top: 25px;
+                               text-align: center;
+                               font-size: 14px;
+                               font-weight: 600;
+                               color: black;
+                           }
+                           h4{
+                            margin-top: 35px;
+                            text-align: center;
+                            font-size: 16px;
+                            font-weight: 800;
+                            color: #ff6a2d;
+                           }
+                       }
+                   }
+               }
+           }
+       }
+}
+//2F商品
+.secondfloor-shop{
+    background: #fff;
+    margin-top: 15px;
+    height: 500px;
+       .content{
+           width: 1180px;
+           padding: 20px 0;
+           margin: 0 auto;
+           //background: palevioletred;
+           overflow: hidden;
+           h3{
+                font-size: 23px;
+                color: black;
+                font-weight: 800;
+           }
+           #swiper5{
+               width: 100%;
+               height: 100%;
+               .swiper-wrapper{
+                   width: 1180px;
+                   .swiper-slide{
+                       
+                       width: 300px;
+                       height: 400px;
+                       a{
+                           text-decoration: none;
+                           overflow: hidden;
+                           height: 400px;
+                           img{
+                               width:280px ;
+                               height:280px ;
+                               display: block;
+                               border: 1px solid #f1f1f1;
+                               box-sizing: border-box;
+                           }
+                           h3{
+                               margin-top: 25px;
+                               text-align: center;
+                               font-size: 14px;
+                               font-weight: 600;
+                               color: black;
+                           }
+                           h4{
+                            margin-top: 35px;
+                            text-align: center;
+                            font-size: 16px;
+                            font-weight: 800;
+                            color: #ff6a2d;
+                           }
+                       }
+                   }
+               }
+           }
+       }
+}
