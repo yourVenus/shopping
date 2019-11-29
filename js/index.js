@@ -6,6 +6,9 @@ var swiperOne = $('#swiper3')[0];
 var swiperWrapperOne = $('.swiper-wrapper',swiperOne)[0];
 var swiperTwo = $('#swiper5')[0];
 var swiperWrapperTwo = $('.swiper-wrapper',swiperTwo)[0];
+
+var lists = $('.list')[0];
+console.log(lists)
 //console.log(oData,swiper,swiperWrapper)
 //菜单
 forEach(oData.menu, function(el, i) {
@@ -58,7 +61,7 @@ forEach(oData.contentZf,function(el,i){
 		})
 })
 //1F 人气商品
-	console.log(oData.contentOf[0].shop)
+	//console.log(oData.contentOf[0].shop)
 	forEach(oData.contentOf[0].shop,function(hl,i){
 		var div = document.createElement('div');
 	div.innerHTML = `
@@ -70,7 +73,7 @@ forEach(oData.contentZf,function(el,i){
 					
 						`
 	div.className = 'swiper-slide'					
-	swiperWrapperOne.appendChild(div)
+	swiperWrapperOne.appendChild(div);
 	})
 //2F
 forEach(oData.contentTf[0].shop,function(hl,i){
@@ -83,8 +86,23 @@ div.innerHTML = `
 					</a>
 				
 					`
-div.className = 'swiper-slide'					
-swiperWrapperTwo.appendChild(div)
+div.className = 'swiper-slide';					
+swiperWrapperTwo.appendChild(div);
+})
+//3f
+
+forEach(oData.contentThf[0].shop,function(el,i){
+	
+	var div = document.createElement('div');
+	div.innerHTML = `
+				
+						<a href=""><img src="${oData.contentThf[0].shop[i].img}">
+						<h3>${oData.contentThf[0].shop[i].type}</h3>
+						</a>
+
+						`	
+	div.className = 'item';	
+	lists.appendChild(div);
 })
 
 

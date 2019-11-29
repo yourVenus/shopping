@@ -122,17 +122,13 @@ var oData = {
 	contentThf:[{
 		title:"3F GSC新品",
 		shop:[{
-				img:'http://uploadv3.anitoys.com/anitoys/images/test/20191108/v3sc0syqarede0uu6456vx058ln0s9h5.jpg',
-				type:'赫萝 丰收的苹果ver. 特装版（附特典）',
-				Price:'1467.0'
+				img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/ip2zgk36p2xuqgqpw375my6jqgfg1lb2.jpg',
+				type:'粘土人 刘昴星',
+				Price:'313.0'
 			},{
-				img:'http://uploadv3.anitoys.com/anitoys/images/test/20191121/igwynk2495kgk9d9cb9em9b1r4res812.jpg',
-				type:'粘土人 欧尔麦特',
-				Price:'345.0'
-			},{
-				img:'http://uploadv3.anitoys.com/anitoys/images/test/20191121/p3yaq6idbvkz5yo2fmikos2onr1pebzk.jpg',
-				type:'PLAMAX Naked Angel 1/20 高桥圣子',
-				Price:'203.0'
+				img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/madcrugqibooup5vb57vh8h4ptm8rojy.jpg',
+				type:'粘土人 夏目贵志＆猫咪老师',
+				Price:'313.0'
 			},{
 				img:'http://uploadv3.anitoys.com/anitoys/images/test/20191121/34jiruwhahgu60499i4sq5n0l4l1vz8a.jpg',
 				type:'莺丸（附特典）',
@@ -150,13 +146,13 @@ var oData = {
 				type:'Medicchu 泽村·斯潘塞·英梨梨',
 				Price:'269.0'
 			},{
-				img:'http://uploadv3.anitoys.com/anitoys/images/test/20191121/mk3uz3iqigi5l6lkjrp8kxu31o7439ky.jpg',
-				type:'1/64 GOODSMILE RACING & TYPE-MOON RACING 2019 SPA24H ver.',
-				Price:'207.0'
+				img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/sktl2md1rgtvt7j5an15oyxsi0k0wx5l.jpg',
+				type:'粘土人 空银子',
+				Price:'345.0'
 			},{
-				img:'http://uploadv3.anitoys.com/anitoys/images/test/20191121/ftqnnxmdf2izcy8fglned719yrsfb0yr.jpg',
-				type:'1/64 Good Smile 初音未来 AMG 2019 Super GT ver.',
-				Price:'207.0'
+				img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/n2x2z36fcdbjxx2tjj0bt2a3o49pfa47.jpg',
+				type:'POP UP PARADE Joker',
+				Price:'244.0'
 			}]
 	}],
 	//4F商品
@@ -710,5 +706,5 @@ var oData = {
 			Price:'10.0',
 			title:'jojo系列专属优惠',
 			type:'GoodSmile上海阿尼托官方旗舰店'
-		}]
+	}]
 };

@@ -150,7 +150,6 @@
 .groundfloor-shop {
   background: #fff;
   margin-top: 15px;
-  height: 500px;
 }
 .groundfloor-shop .content {
   width: 1180px;
@@ -202,7 +201,6 @@
 }
 .ticketing {
   margin-top: 15px;
-  height: 500px;
 }
 .ticketing .content {
   width: 1180px;
@@ -255,7 +253,6 @@
 .secondfloor-shop {
   background: #fff;
   margin-top: 15px;
-  height: 500px;
 }
 .secondfloor-shop .content {
   width: 1180px;
@@ -304,4 +301,75 @@
   font-size: 16px;
   font-weight: 800;
   color: #ff6a2d;
+}
+.threeflorr-shop {
+  margin-top: 15px;
+}
+.threeflorr-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.threeflorr-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.threeflorr-shop .content .list {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+  height: 570px;
+}
+.threeflorr-shop .content .list .shop-left {
+  height: 550px;
+  width: 210px;
+  float: left;
+  overflow: hidden;
+  border: 1px solid #808388;
+  text-decoration: none;
+  margin-right: 5px;
+}
+.threeflorr-shop .content .list .shop-left img {
+  display: block;
+  width: 100%;
+  height: 510px;
+  object-fit: cover;
+}
+.threeflorr-shop .content .list .shop-left h3 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  color: black;
+  background: #f8f8f8;
+}
+.threeflorr-shop .content .list .item {
+  float: left;
+  width: 230px;
+  height: 270px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 5px 10px 5px;
+  border: 1px solid #808388;
+  box-sizing: border-box;
+}
+.threeflorr-shop .content .list .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.threeflorr-shop .content .list .item a img {
+  width: 100%;
+  height: 230px;
+  display: block;
+}
+.threeflorr-shop .content .list .item a h3 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  color: black;
+  background: #f8f8f8;
 }
