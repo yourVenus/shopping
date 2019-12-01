@@ -327,7 +327,7 @@
   width: 210px;
   float: left;
   overflow: hidden;
-  border: 1px solid #808388;
+  border: 1px solid #cccccc;
   text-decoration: none;
   margin-right: 5px;
 }
@@ -336,13 +336,19 @@
   width: 100%;
   height: 510px;
   object-fit: cover;
+  border-bottom: 1px solid  #f6f6f6;
 }
 .threeflorr-shop .content .list .shop-left h3 {
-  text-align: center;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 600;
   color: black;
-  background: #f8f8f8;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0 20px;
+  height: 18px;
+  margin-bottom: 23px;
+  text-align: center;
 }
 .threeflorr-shop .content .list .item {
   float: left;
@@ -352,8 +358,9 @@
   z-index: 0;
   overflow: hidden;
   margin: 0 5px 10px 5px;
-  border: 1px solid #808388;
+  border: 1px solid #cccccc;
   box-sizing: border-box;
+  text-align: center;
 }
 .threeflorr-shop .content .list .item a {
   overflow: hidden;
@@ -363,13 +370,400 @@
 }
 .threeflorr-shop .content .list .item a img {
   width: 100%;
-  height: 230px;
+  height: 229px;
   display: block;
+  border-bottom: 1px solid  #f6f6f6;
 }
 .threeflorr-shop .content .list .item a h3 {
-  text-align: center;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 600;
   color: black;
-  background: #f8f8f8;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0;
+  height: 18px;
+  margin-bottom: 23px;
+}
+.fourfloor-shop {
+  margin-top: 15px;
+  background: #fff;
+}
+.fourfloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.fourfloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.fourfloor-shop .content .list-one {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.fourfloor-shop .content .list-one .item {
+  text-align: center;
+  float: left;
+  width: 228px;
+  height: 268px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px 10px 0px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.fourfloor-shop .content .list-one .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.fourfloor-shop .content .list-one .item a img {
+  width: 100%;
+  height: 229px;
+  display: block;
+  border-bottom: 1px solid  #f6f6f6;
+}
+.fourfloor-shop .content .list-one .item a h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0;
+  height: 18px;
+  margin-bottom: 23px;
+}
+.fivefloor-shop {
+  margin-top: 15px;
+}
+.fivefloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.fivefloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.fivefloor-shop .content .list-two {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.fivefloor-shop .content .list-two .item {
+  text-align: center;
+  float: left;
+  width: 228px;
+  height: 268px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px 10px 0px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.fivefloor-shop .content .list-two .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.fivefloor-shop .content .list-two .item a img {
+  width: 100%;
+  height: 229px;
+  display: block;
+  border-bottom: 1px solid  #f6f6f6;
+}
+.fivefloor-shop .content .list-two .item a h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0;
+  height: 18px;
+  margin-bottom: 23px;
+}
+.sixfloor-shop {
+  margin-top: 15px;
+  background: #fff;
+}
+.sixfloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.sixfloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.sixfloor-shop .content .list-three {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.sixfloor-shop .content .list-three .item {
+  text-align: center;
+  float: left;
+  width: 228px;
+  height: 268px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px 10px 0px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.sixfloor-shop .content .list-three .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.sixfloor-shop .content .list-three .item a img {
+  width: 100%;
+  height: 229px;
+  display: block;
+  border-bottom: 1px solid  #f6f6f6;
+}
+.sixfloor-shop .content .list-three .item a h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0;
+  height: 18px;
+  margin-bottom: 23px;
+}
+.sevenfloor-shop {
+  margin-top: 15px;
+}
+.sevenfloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.sevenfloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.sevenfloor-shop .content .list-four {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.sevenfloor-shop .content .list-four .item {
+  text-align: center;
+  float: left;
+  width: 228px;
+  height: 268px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px 10px 0px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.sevenfloor-shop .content .list-four .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.sevenfloor-shop .content .list-four .item a img {
+  width: 100%;
+  height: 229px;
+  display: block;
+  border-bottom: 1px solid  #f6f6f6;
+}
+.sevenfloor-shop .content .list-four .item a h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0;
+  height: 18px;
+  margin-bottom: 23px;
+}
+.eightfloor-shop {
+  margin-top: 15px;
+  background: #fff;
+}
+.eightfloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.eightfloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.eightfloor-shop .content .list-five {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.eightfloor-shop .content .list-five .item {
+  text-align: center;
+  float: left;
+  width: 228px;
+  height: 268px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px 10px 0px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.eightfloor-shop .content .list-five .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.eightfloor-shop .content .list-five .item a img {
+  width: 100%;
+  height: 229px;
+  display: block;
+  border-bottom: 1px solid  #f6f6f6;
+}
+.eightfloor-shop .content .list-five .item a h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0;
+  height: 18px;
+  margin-bottom: 23px;
+}
+.ninefloor-shop {
+  margin-top: 15px;
+}
+.ninefloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.ninefloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.ninefloor-shop .content .list-six {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.ninefloor-shop .content .list-six .item {
+  text-align: center;
+  float: left;
+  width: 228px;
+  height: 268px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px 10px 0px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.ninefloor-shop .content .list-six .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.ninefloor-shop .content .list-six .item a img {
+  width: 100%;
+  height: 229px;
+  display: block;
+  border-bottom: 1px solid  #f6f6f6;
+}
+.ninefloor-shop .content .list-six .item a h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0;
+  height: 18px;
+  margin-bottom: 23px;
+}
+.tenfloor-shop {
+  margin-top: 15px;
+  background: #fff;
+}
+.tenfloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.tenfloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.tenfloor-shop .content .list-seven {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.tenfloor-shop .content .list-seven .item {
+  text-align: center;
+  float: left;
+  width: 228px;
+  height: 268px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px 10px 0px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.tenfloor-shop .content .list-seven .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.tenfloor-shop .content .list-seven .item a img {
+  width: 100%;
+  height: 229px;
+  display: block;
+  border-bottom: 1px solid  #f6f6f6;
+}
+.tenfloor-shop .content .list-seven .item a h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0;
+  height: 18px;
+  margin-bottom: 23px;
 }

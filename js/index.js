@@ -8,7 +8,14 @@ var swiperTwo = $('#swiper5')[0];
 var swiperWrapperTwo = $('.swiper-wrapper',swiperTwo)[0];
 
 var lists = $('.list')[0];
-console.log(lists)
+var listOne = $('.list-one')[0];
+var listTwo = $('.list-two')[0];
+var listThree = $('.list-three')[0];
+var listFour = $('.list-four')[0];
+var listFive = $('.list-five')[0];
+var listSix = $('.list-six')[0];
+var listSeven = $('.list-seven')[0];
+console.log(lists,listOne)
 //console.log(oData,swiper,swiperWrapper)
 //菜单
 forEach(oData.menu, function(el, i) {
@@ -104,5 +111,94 @@ forEach(oData.contentThf[0].shop,function(el,i){
 	div.className = 'item';	
 	lists.appendChild(div);
 })
+//4f
+forEach(oData.contentFf[0].shop,function(el,i){
+	var div = document.createElement('div');
+	div.innerHTML = `
+				
+						<a href=""><img src="${oData.contentFf[0].shop[i].img}">
+						<h3>${oData.contentFf[0].shop[i].type}</h3>
+						</a>
 
+						`	
+	div.className = 'item';	
+	listOne.appendChild(div);
+})
+//5f
+forEach(oData.contentFif[0].shop,function(el,i){
+	var div = document.createElement('div');
+	div.innerHTML = `
+				
+						<a href=""><img src="${oData.contentFif[0].shop[i].img}">
+						<h3>${oData.contentFif[0].shop[i].type}</h3>
+						</a>
 
+						`	
+	div.className = 'item';	
+	listTwo.appendChild(div);
+})
+//6f
+forEach(oData.contentSf[0].shop,function(el,i){
+	var div = document.createElement('div');
+	div.innerHTML = `
+				
+						<a href=""><img src="${oData.contentSf[0].shop[i].img}">
+						<h3>${oData.contentSf[0].shop[i].type}</h3>
+						</a>
+
+						`	
+	div.className = 'item';	
+	listThree.appendChild(div);
+})
+//7f
+forEach(oData.contentSvf[0].shop,function(el,i){
+	var div = document.createElement('div');
+	div.innerHTML = `
+				
+						<a href=""><img src="${oData.contentSvf[0].shop[i].img}">
+						<h3>${oData.contentSvf[0].shop[i].type}</h3>
+						</a>
+
+						`	
+	div.className = 'item';	
+	listFour.appendChild(div);
+})
+//8f
+forEach(oData.contentEf[0].shop,function(el,i){
+	var div = document.createElement('div');
+	div.innerHTML = `
+				
+						<a href=""><img src="${oData.contentEf[0].shop[i].img}">
+						<h3>${oData.contentEf[0].shop[i].type}</h3>
+						</a>
+
+						`	
+	div.className = 'item';	
+	listFive.appendChild(div);
+})
+// 9f
+forEach(oData.contentNf[0].shop,function(el,i){
+	var div = document.createElement('div');
+	div.innerHTML = `
+				
+						<a href=""><img src="${oData.contentNf[0].shop[i].img}">
+						<h3>${oData.contentNf[0].shop[i].type}</h3>
+						</a>
+
+						`	
+	div.className = 'item';	
+	listSix.appendChild(div);
+})
+//10f
+forEach(oData.contentTenf[0].shop,function(el,i){
+	var div = document.createElement('div');
+	div.innerHTML = `
+				
+						<a href=""><img src="${oData.contentTenf[0].shop[i].img}">
+						<h3>${oData.contentTenf[0].shop[i].type}</h3>
+						</a>
+
+						`	
+	div.className = 'item';	
+	listSeven.appendChild(div);
+})
