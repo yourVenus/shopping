@@ -15,6 +15,8 @@ var listFour = $('.list-four')[0];
 var listFive = $('.list-five')[0];
 var listSix = $('.list-six')[0];
 var listSeven = $('.list-seven')[0];
+var listEight = $('.list-eight')[0];
+var listNine=$('.list-nine')[0];
 console.log(lists,listOne)
 //console.log(oData,swiper,swiperWrapper)
 //菜单
@@ -201,4 +203,31 @@ forEach(oData.contentTenf[0].shop,function(el,i){
 						`	
 	div.className = 'item';	
 	listSeven.appendChild(div);
+})
+//进入店铺
+forEach(oData.contentTwf[0].shop,function(el,i){
+	var div = document.createElement('div');
+	div.innerHTML = `
+				
+						<a href=""><img src="${oData.contentTwf[0].shop[i].img}">
+						<h3>${oData.contentTwf[0].shop[i].type}</h3>
+						</a>
+
+						`	
+	div.className = 'item';	
+	listEight.appendChild(div);
+})
+//LINK
+forEach(oData.contentThi[0].shop,function(el,i){
+	var div = document.createElement('div');
+	div.innerHTML = `
+				
+					<a href="" style="background:url(${oData.contentThi[0].shop[i].img})no-repeat 50% 50%;background-size: cover;">
+					<h3>${oData.contentThi[0].shop[i].title}</h3>
+					<p>${oData.contentThi[0].shop[i].type}</p>
+					</a>
+
+						`						
+	div.className = 'item';	
+	listNine.appendChild(div);
 })

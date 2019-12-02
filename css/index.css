@@ -282,6 +282,7 @@
   height: 400px;
 }
 .secondfloor-shop .content #swiper5 .swiper-wrapper .swiper-slide a img {
+  object-fit: cover;
   width: 280px ;
   height: 280px ;
   display: block;
@@ -424,6 +425,7 @@
   text-decoration: none;
 }
 .fourfloor-shop .content .list-one .item a img {
+  object-fit: cover;
   width: 100%;
   height: 229px;
   display: block;
@@ -478,6 +480,7 @@
   text-decoration: none;
 }
 .fivefloor-shop .content .list-two .item a img {
+  object-fit: cover;
   width: 100%;
   height: 229px;
   display: block;
@@ -533,6 +536,7 @@
   text-decoration: none;
 }
 .sixfloor-shop .content .list-three .item a img {
+  object-fit: cover;
   width: 100%;
   height: 229px;
   display: block;
@@ -587,6 +591,7 @@
   text-decoration: none;
 }
 .sevenfloor-shop .content .list-four .item a img {
+  object-fit: cover;
   width: 100%;
   height: 229px;
   display: block;
@@ -642,6 +647,7 @@
   text-decoration: none;
 }
 .eightfloor-shop .content .list-five .item a img {
+  object-fit: cover;
   width: 100%;
   height: 229px;
   display: block;
@@ -696,6 +702,7 @@
   text-decoration: none;
 }
 .ninefloor-shop .content .list-six .item a img {
+  object-fit: cover;
   width: 100%;
   height: 229px;
   display: block;
@@ -751,6 +758,7 @@
   text-decoration: none;
 }
 .tenfloor-shop .content .list-seven .item a img {
+  object-fit: cover;
   width: 100%;
   height: 229px;
   display: block;
@@ -766,4 +774,56 @@
   padding: 0 20px 0;
   height: 18px;
   margin-bottom: 23px;
+}
+.elevenfloor-shop {
+  margin-top: 15px;
+}
+.elevenfloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.elevenfloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.elevenfloor-shop .content .list-eight {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.elevenfloor-shop .content .list-eight .item {
+  float: left;
+  width: 149px;
+  height: 190px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.elevenfloor-shop .content .list-eight .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.elevenfloor-shop .content .list-eight .item a img {
+  width: 100%;
+  height: 130px;
+  display: block;
+  border: 1px solid  #f6f6f6;
+  object-fit: cover;
+}
+.elevenfloor-shop .content .list-eight .item a h3 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.elevenfloor-shop .content .list-eight .item a h3:hover {
+  color: #ff6a2d;
 }

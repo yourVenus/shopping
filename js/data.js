@@ -706,5 +706,46 @@ var oData = {
 			Price:'10.0',
 			title:'jojo系列专属优惠',
 			type:'GoodSmile上海阿尼托官方旗舰店'
+	}],
+	//进入店铺
+	contentTwf:[{
+		title:'进入店铺',
+		shop:[{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190215/iassyn8aaf08ritb9e8bdz28i5zvu1q9.png',
+			type:'GoodSmile上海阿尼托官方旗舰店'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190215/kt15vli44th5nvklvfeyio92w6zpoab2.png',
+			type:'HiME ENTERTAINMENT'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190215/wspc276s68zc54t894b8lbkcp2gyom3l.png',
+			type:'172直营店'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190215/69p7b7pmwvxnauo8x90rytp2gw16okn7.png',
+			type:'艾漫阿尼托旗舰店'
+		}]
+	}],
+	//LINK
+	contentThi:[{
+		title:'LINK',
+		shop:[{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190730/avxsyclx2rtuis7nnjzxa26u7gr84dm9.png',
+			title:'WF2019夏',
+			type:'Wonder Festival 2019 summer'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190730/onr53g19y335cbp04k1dydyugauhzq1r.png',
+			title:'新模型展示',
+			type:'为玩家介绍WHL4U 30新作模型'
+		}]
+	}],
+	//底部菜单
+	contentFourt:[{
+		title:'新手帮助',
+		type:['现货购买流程','预售商品购买流程','补款流程','常见问题']
+	},{
+		title:'积分优惠券',
+		type:['优惠券使用教程和规则','积分规则','关于预存款充值']
+	},{
+		title:'关于我们',
+		type:['公司简介','联系我们','网站更新详情','法律声明','关于172酱与他的小伙伴']
 	}]
 };
