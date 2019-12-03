@@ -17,7 +17,8 @@ var listSix = $('.list-six')[0];
 var listSeven = $('.list-seven')[0];
 var listEight = $('.list-eight')[0];
 var listNine=$('.list-nine')[0];
-console.log(lists,listOne)
+var listTen = $('.list-ten')[0];
+//console.log(oData.contentFourt[2].type[2])
 //console.log(oData,swiper,swiperWrapper)
 //菜单
 forEach(oData.menu, function(el, i) {
@@ -99,14 +100,17 @@ div.className = 'swiper-slide';
 swiperWrapperTwo.appendChild(div);
 })
 //3f
-
 forEach(oData.contentThf[0].shop,function(el,i){
 	
 	var div = document.createElement('div');
 	div.innerHTML = `
 				
 						<a href=""><img src="${oData.contentThf[0].shop[i].img}">
+						<div class="info-box">
 						<h3>${oData.contentThf[0].shop[i].type}</h3>
+						<b class="price">${oData.contentThf[0].shop[i].Price}</b>
+						</div>
+						
 						</a>
 
 						`	
@@ -231,3 +235,38 @@ forEach(oData.contentThi[0].shop,function(el,i){
 	div.className = 'item';	
 	listNine.appendChild(div);
 })
+//底部
+forEach(oData.contentFourt,function(el,i){
+	var div = document.createElement('div');
+	
+		div.innerHTML =`
+					<h3>${el.title}</h3>
+					
+				   `
+	div.className = 'item';
+	var lis = document.createElement('li')
+	forEach(el.type,function(tl,p){
+	
+		lis.innerHTML += `
+							<a href="">${tl}</a>
+						`
+			})
+	
+		div.appendChild(lis)
+	console.log(oData.contentFourt[0].type[0])
+	listTen.appendChild(div);
+	
+})
+var infoBOX = $('.info-box');
+var hDynamic = infoBOX.firstElementChild;
+console.log(infoBOX,hDynamic)
+// forEach(infoBOX,function(el,i){
+// 	this.onmouseover = function(){
+// 		this.
+// 	}
+// })
+
+
+
+	
+

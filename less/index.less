@@ -362,6 +362,7 @@
             border: 1px solid #cccccc;
              text-decoration: none;
              margin-right: 5px;
+             position: relative;
               img{
                 object-fit: cover;
                 display: block;
@@ -370,19 +371,36 @@
                 object-fit: cover;
                 border-bottom: 1px solid  #f6f6f6;
               }
+          .info-box{
+              position: absolute;
+              text-align: center;
+              left: 0;
+              bottom: -43px;
+              right: 0;
+              h3{
+                font-size: 14px;
+                font-weight: 600;
+                color: black;
+                overflow: hidden;
+                margin-top: 10px;
+                line-height: 18px;
+                padding: 0 20px 0 20px;
+                height: 18px;
+                margin-bottom: 23px; 
+
+               }
+               b{
+                display: block;
+                font-size: 12px;
+                line-height: 20px;
+                padding: 0 0 10px;
+                color: #fff;
+                white-space: nowrap;
+             overflow: hidden;
+             text-overflow: ellipsis;
+            }    
+          }
           
-           h3{
-            font-size: 14px;
-            font-weight: 600;
-            color: black;
-            overflow: hidden;
-            margin-top: 10px;
-            line-height: 18px;
-            padding: 0 20px 0 20px;
-            height: 18px;
-            margin-bottom: 23px;  
-            text-align: center;     
-           }
         }
         .item{
            
@@ -407,18 +425,35 @@
                     display: block;
                     border-bottom: 1px solid  #f6f6f6;
                 }
-                h3{
-                    
-                    font-size: 14px;
-                    font-weight: 600;
-                    color: black;
-                    overflow: hidden;
-                    margin-top: 10px;
-                    line-height: 18px;
-                    padding: 0 20px 0;
-                    height: 18px;
-                    margin-bottom: 23px;  
-               }
+                .info-box{
+                    position: absolute;
+                    text-align: center;
+                    left: 0;
+                    bottom: -43px;
+                    right: 0;
+                    h3{
+                      font-size: 14px;
+                      font-weight: 600;
+                      color: black;
+                      overflow: hidden;
+                      margin-top: 10px;
+                      line-height: 18px;
+                      padding: 0 20px 0 20px;
+                      height: 18px;
+                      margin-bottom: 23px; 
+      
+                     }
+                     b{
+                      display: block;
+                      font-size: 12px;
+                      line-height: 20px;
+                      padding: 0 0 10px;
+                      color: #fff;
+                      white-space: nowrap;
+                   overflow: hidden;
+                   text-overflow: ellipsis;
+                  }    
+                }
             } 
         }
 

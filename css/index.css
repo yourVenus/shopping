@@ -331,6 +331,7 @@
   border: 1px solid #cccccc;
   text-decoration: none;
   margin-right: 5px;
+  position: relative;
 }
 .threeflorr-shop .content .list .shop-left img {
   display: block;
@@ -339,7 +340,14 @@
   object-fit: cover;
   border-bottom: 1px solid  #f6f6f6;
 }
-.threeflorr-shop .content .list .shop-left h3 {
+.threeflorr-shop .content .list .shop-left .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+}
+.threeflorr-shop .content .list .shop-left .info-box h3 {
   font-size: 14px;
   font-weight: 600;
   color: black;
@@ -349,7 +357,16 @@
   padding: 0 20px 0 20px;
   height: 18px;
   margin-bottom: 23px;
-  text-align: center;
+}
+.threeflorr-shop .content .list .shop-left .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .threeflorr-shop .content .list .item {
   float: left;
@@ -375,16 +392,33 @@
   display: block;
   border-bottom: 1px solid  #f6f6f6;
 }
-.threeflorr-shop .content .list .item a h3 {
+.threeflorr-shop .content .list .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+}
+.threeflorr-shop .content .list .item a .info-box h3 {
   font-size: 14px;
   font-weight: 600;
   color: black;
   overflow: hidden;
   margin-top: 10px;
   line-height: 18px;
-  padding: 0 20px 0;
+  padding: 0 20px 0 20px;
   height: 18px;
   margin-bottom: 23px;
+}
+.threeflorr-shop .content .list .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .fourfloor-shop {
   margin-top: 15px;
