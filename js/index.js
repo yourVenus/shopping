@@ -108,7 +108,7 @@ forEach(oData.contentThf[0].shop,function(el,i){
 						<a href=""><img src="${oData.contentThf[0].shop[i].img}">
 						<div class="info-box">
 						<h3>${oData.contentThf[0].shop[i].type}</h3>
-						<b class="price">${oData.contentThf[0].shop[i].Price}</b>
+						<b class="price">￥${oData.contentThf[0].shop[i].Price}</b>
 						</div>
 						
 						</a>
@@ -123,7 +123,10 @@ forEach(oData.contentFf[0].shop,function(el,i){
 	div.innerHTML = `
 				
 						<a href=""><img src="${oData.contentFf[0].shop[i].img}">
+						<div class="info-box">
 						<h3>${oData.contentFf[0].shop[i].type}</h3>
+						<b class="price">￥${oData.contentFf[0].shop[i].Price}</b>
+						</div>
 						</a>
 
 						`	
@@ -136,7 +139,10 @@ forEach(oData.contentFif[0].shop,function(el,i){
 	div.innerHTML = `
 				
 						<a href=""><img src="${oData.contentFif[0].shop[i].img}">
+						<div class="info-box">
 						<h3>${oData.contentFif[0].shop[i].type}</h3>
+						<b class="price">￥${oData.contentFif[0].shop[i].Price}</b>
+						</div>
 						</a>
 
 						`	
@@ -149,7 +155,10 @@ forEach(oData.contentSf[0].shop,function(el,i){
 	div.innerHTML = `
 				
 						<a href=""><img src="${oData.contentSf[0].shop[i].img}">
+						<div class="info-box">
 						<h3>${oData.contentSf[0].shop[i].type}</h3>
+						<b class="price">￥${oData.contentSf[0].shop[i].Price}</b>
+						</div>
 						</a>
 
 						`	
@@ -162,7 +171,10 @@ forEach(oData.contentSvf[0].shop,function(el,i){
 	div.innerHTML = `
 				
 						<a href=""><img src="${oData.contentSvf[0].shop[i].img}">
+						<div class="info-box">
 						<h3>${oData.contentSvf[0].shop[i].type}</h3>
+						<b class="price">￥${oData.contentSvf[0].shop[i].Price}</b>
+						</div>
 						</a>
 
 						`	
@@ -175,7 +187,10 @@ forEach(oData.contentEf[0].shop,function(el,i){
 	div.innerHTML = `
 				
 						<a href=""><img src="${oData.contentEf[0].shop[i].img}">
+						<div class="info-box">
 						<h3>${oData.contentEf[0].shop[i].type}</h3>
+						<b class="price">￥${oData.contentEf[0].shop[i].Price}</b>
+						</div>
 						</a>
 
 						`	
@@ -188,7 +203,10 @@ forEach(oData.contentNf[0].shop,function(el,i){
 	div.innerHTML = `
 				
 						<a href=""><img src="${oData.contentNf[0].shop[i].img}">
+						<div class="info-box">
 						<h3>${oData.contentNf[0].shop[i].type}</h3>
+						<b class="price">￥${oData.contentNf[0].shop[i].Price}</b>
+						</div>
 						</a>
 
 						`	
@@ -201,7 +219,10 @@ forEach(oData.contentTenf[0].shop,function(el,i){
 	div.innerHTML = `
 				
 						<a href=""><img src="${oData.contentTenf[0].shop[i].img}">
+						<div class="info-box">
 						<h3>${oData.contentTenf[0].shop[i].type}</h3>
+						<b class="price">￥${oData.contentTenf[0].shop[i].Price}</b>
+						</div>
 						</a>
 
 						`	
@@ -258,14 +279,74 @@ forEach(oData.contentFourt,function(el,i){
 	
 })
 var infoBOX = $('.info-box');
-var hDynamic = infoBOX.firstElementChild;
-console.log(infoBOX,hDynamic)
-// forEach(infoBOX,function(el,i){
-// 	this.onmouseover = function(){
-// 		this.
-// 	}
-// })
 
+console.log(infoBOX)
+forEach(infoBOX,function(el,i){
+	var hDynamic = el.querySelector('h3');
+	hDynamic.onmouseenter=function(){
+		el.style.bottom = '0';
+		el.style.background = 'rgb(0,0,0,.5)';
+		
+		hDynamic.style.color = '#fff';
+		hDynamic.style.overflow = 'visible';
+
+	};
+	el.onmouseleave=function(){
+		el.style.bottom = '-43px';
+		el.style.background = 'none';
+		hDynamic.style.overflow = 'hidden';
+		hDynamic.style.color = 'black';
+	};
+})
+var oneNav = $('.one-nav')[0];
+var liS = $('li',oneNav);
+var divOne = $('.pop-box',liS[1])[0];
+var divTwo = $('.pop-box',liS[2])[0];
+forEach(oData.navigation[0].type,function(el,i){
+	
+	divOne.innerHTML +=`<a>${el}</a>` 
+	
+	liS[1].appendChild(divOne)
+	var oA = $('a',divOne);
+	forEach(oA,function(al,l){
+		al.onmouseenter = function(){
+			al.style.background = '#fff';
+		}
+		al.onmouseleave = function(){
+			al.style.background = 'none';
+		}
+	})
+liS[1].onmouseenter = function(){
+	divOne.style.display = 'block';	
+}
+liS[1].onmouseleave = function(){
+	divOne.style.display = 'none';
+}
+})
+
+
+forEach(oData.navigation[1].type,function(el,i){
+	
+	divTwo.innerHTML +=`<a>${el}</a>` 
+	
+	liS[2].appendChild(divTwo);
+	var oA = $('a',divTwo);
+	forEach(oA,function(al,l){
+		al.onmouseenter = function(){
+			al.style.background = '#fff';
+		}
+		al.onmouseleave = function(){
+			al.style.background = 'none';
+		}
+	})
+liS[2].onmouseenter = function(){
+	divTwo.style.display = 'block';
+}
+liS[2].onmouseleave = function(){
+	divTwo.style.display = 'none';
+}
+})
+console.log(oneNav,liS)
 
 
 	

@@ -95,6 +95,7 @@
 	text-align: center;
 	line-height: 46px;
 	font-size: 12px;
+	position: relative;
 	span{
 		float: left;
 		img{
@@ -110,6 +111,34 @@
 	}
 	
 }
+/* 下拉菜单*/
+	.pop-box{
+	position: absolute;
+	top: 42px;
+	left: 0;
+	z-index: 2;
+	display: none;
+	background: #f8f8f8;
+	min-width: 100px;
+	
+	a{
+	display: block;
+	width: 100%;
+	line-height: 32px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: left;
+	padding: 0 12px;
+	color: #000!important;
+
+	}
+	a:hover{
+		color: #ff7b3a!important;
+	}
+	}
+
+	
 /*鼠标事件*/
 li:hover{
 	background:#dddd;
@@ -394,6 +423,7 @@ footer{
 					font-size: 16px;
 					font-weight: 600;
 					line-height: 48px;
+					z-index: 10;
 				}
 				li{
 					list-style: none;

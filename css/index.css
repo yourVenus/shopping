@@ -346,6 +346,7 @@
   left: 0;
   bottom: -43px;
   right: 0;
+  transition: 0.3s;
 }
 .threeflorr-shop .content .list .shop-left .info-box h3 {
   font-size: 14px;
@@ -353,9 +354,9 @@
   color: black;
   overflow: hidden;
   margin-top: 10px;
-  line-height: 18px;
+  line-height: 19px;
   padding: 0 20px 0 20px;
-  height: 18px;
+  height: 19px;
   margin-bottom: 23px;
 }
 .threeflorr-shop .content .list .shop-left .info-box b {
@@ -367,6 +368,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  opacity: 1;
 }
 .threeflorr-shop .content .list .item {
   float: left;
@@ -398,6 +400,7 @@
   left: 0;
   bottom: -43px;
   right: 0;
+  transition: 0.3s;
 }
 .threeflorr-shop .content .list .item a .info-box h3 {
   font-size: 14px;
@@ -465,16 +468,34 @@
   display: block;
   border-bottom: 1px solid  #f6f6f6;
 }
-.fourfloor-shop .content .list-one .item a h3 {
+.fourfloor-shop .content .list-one .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+  transition: 0.3s;
+}
+.fourfloor-shop .content .list-one .item a .info-box h3 {
   font-size: 14px;
   font-weight: 600;
   color: black;
   overflow: hidden;
   margin-top: 10px;
   line-height: 18px;
-  padding: 0 20px 0;
+  padding: 0 20px 0 20px;
   height: 18px;
   margin-bottom: 23px;
+}
+.fourfloor-shop .content .list-one .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .fivefloor-shop {
   margin-top: 15px;
@@ -520,16 +541,34 @@
   display: block;
   border-bottom: 1px solid  #f6f6f6;
 }
-.fivefloor-shop .content .list-two .item a h3 {
+.fivefloor-shop .content .list-two .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+  transition: 0.3s;
+}
+.fivefloor-shop .content .list-two .item a .info-box h3 {
   font-size: 14px;
   font-weight: 600;
   color: black;
   overflow: hidden;
   margin-top: 10px;
   line-height: 18px;
-  padding: 0 20px 0;
+  padding: 0 20px 0 20px;
   height: 18px;
   margin-bottom: 23px;
+}
+.fivefloor-shop .content .list-two .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .sixfloor-shop {
   margin-top: 15px;
@@ -576,16 +615,34 @@
   display: block;
   border-bottom: 1px solid  #f6f6f6;
 }
-.sixfloor-shop .content .list-three .item a h3 {
+.sixfloor-shop .content .list-three .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+  transition: 0.3s;
+}
+.sixfloor-shop .content .list-three .item a .info-box h3 {
   font-size: 14px;
   font-weight: 600;
   color: black;
   overflow: hidden;
   margin-top: 10px;
   line-height: 18px;
-  padding: 0 20px 0;
+  padding: 0 20px 0 20px;
   height: 18px;
   margin-bottom: 23px;
+}
+.sixfloor-shop .content .list-three .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .sevenfloor-shop {
   margin-top: 15px;
@@ -631,16 +688,34 @@
   display: block;
   border-bottom: 1px solid  #f6f6f6;
 }
-.sevenfloor-shop .content .list-four .item a h3 {
+.sevenfloor-shop .content .list-four .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+  transition: 0.3s;
+}
+.sevenfloor-shop .content .list-four .item a .info-box h3 {
   font-size: 14px;
   font-weight: 600;
   color: black;
   overflow: hidden;
   margin-top: 10px;
   line-height: 18px;
-  padding: 0 20px 0;
+  padding: 0 20px 0 20px;
   height: 18px;
   margin-bottom: 23px;
+}
+.sevenfloor-shop .content .list-four .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .eightfloor-shop {
   margin-top: 15px;
@@ -687,16 +762,34 @@
   display: block;
   border-bottom: 1px solid  #f6f6f6;
 }
-.eightfloor-shop .content .list-five .item a h3 {
+.eightfloor-shop .content .list-five .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+  transition: 0.3s;
+}
+.eightfloor-shop .content .list-five .item a .info-box h3 {
   font-size: 14px;
   font-weight: 600;
   color: black;
   overflow: hidden;
   margin-top: 10px;
   line-height: 18px;
-  padding: 0 20px 0;
+  padding: 0 20px 0 20px;
   height: 18px;
   margin-bottom: 23px;
+}
+.eightfloor-shop .content .list-five .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .ninefloor-shop {
   margin-top: 15px;
@@ -742,16 +835,34 @@
   display: block;
   border-bottom: 1px solid  #f6f6f6;
 }
-.ninefloor-shop .content .list-six .item a h3 {
+.ninefloor-shop .content .list-six .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+  transition: 0.3s;
+}
+.ninefloor-shop .content .list-six .item a .info-box h3 {
   font-size: 14px;
   font-weight: 600;
   color: black;
   overflow: hidden;
   margin-top: 10px;
   line-height: 18px;
-  padding: 0 20px 0;
+  padding: 0 20px 0 20px;
   height: 18px;
   margin-bottom: 23px;
+}
+.ninefloor-shop .content .list-six .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .tenfloor-shop {
   margin-top: 15px;
@@ -798,16 +909,34 @@
   display: block;
   border-bottom: 1px solid  #f6f6f6;
 }
-.tenfloor-shop .content .list-seven .item a h3 {
+.tenfloor-shop .content .list-seven .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+  transition: 0.3s;
+}
+.tenfloor-shop .content .list-seven .item a .info-box h3 {
   font-size: 14px;
   font-weight: 600;
   color: black;
   overflow: hidden;
   margin-top: 10px;
   line-height: 18px;
-  padding: 0 20px 0;
+  padding: 0 20px 0 20px;
   height: 18px;
   margin-bottom: 23px;
+}
+.tenfloor-shop .content .list-seven .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .elevenfloor-shop {
   margin-top: 15px;
