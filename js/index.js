@@ -26,27 +26,28 @@ forEach(oData.menu, function(el, i) {
 	var div = document.createElement('div');
 	div.innerHTML +=
 					  `
-						<a href="">
+						<a href="" id = "onA">
 						<i style="background:url(${oData.menu[i].imgs})no-repeat 50% 50%;background-size:24px 24px;"></i>
 						<b>${oData.menu[i].text}</b>
 						</a>
 					  `
 	div.className = 'item';
 	menuContent.appendChild(div)
-	var oA = div.querySelectorAll('a');
-	//console.log(oA)
-	forEach(oA,function(al,i){
-		//console.log(al)
-		bind(al,'mouseenter',function(){
-			al.style.color = '#ff7b3a';
+	// var oA = div.querySelectorAll('a');
+	// //console.log(oA)
+	// forEach(oA,function(al,i){
+	// 	//console.log(al)
+	// 	bind(al,'mouseenter',function(){
+	// 		al.style.color = '#ff7b3a';
 			
-		});
-		bind(al,'mouseleave',function(){
-			al.style.color = '';
+	// 	});
+	// 	bind(al,'mouseleave',function(){
+	// 		al.style.color = '';
 		
-		});
-	})
+	// 	});
+	// })
 });
+
 // 优惠卷商品轮播
 forEach(oData.contentZf,function(el,i){
 	 var div = document.createElement('div');
@@ -280,7 +281,7 @@ forEach(oData.contentFourt,function(el,i){
 })
 var infoBOX = $('.info-box');
 
-console.log(infoBOX)
+//console.log(infoBOX)
 forEach(infoBOX,function(el,i){
 	var hDynamic = el.querySelector('h3');
 	hDynamic.onmouseenter=function(){
@@ -346,7 +347,71 @@ liS[2].onmouseleave = function(){
 	divTwo.style.display = 'none';
 }
 })
-console.log(oneNav,liS)
+
+var divThree = $('.pop-about')[0]
+liS[5].onmouseenter = function(){
+	divThree.style.display = 'block';
+}
+liS[5].onmouseleave = function(){
+	divThree.style.display = 'none';
+}
+
+var divFour = $('.pop-phone')[0]
+liS[6].onmouseenter = function(){
+	divFour.style.display = 'block';
+}
+liS[6].onmouseleave = function(){
+	divFour.style.display = 'none';
+}
+//console.log(oneNav,liS,oData.downmenu)
+	//下拉菜单
+	
+var divItem = $('.item',menuContent);
+forEach(divItem,function(el,i){
+	var str = '';
+	var num = -1;
+	if(i>1){
+		
+			str = `<div class="pop-box"></div>`
+		divItem[i].innerHTML+=str;
+		var popBox= divItem[i].querySelector('.pop-box');
+			forEach(oData.downmenu[i].type,function(tl,l){
+				str1 = `<a>${tl}</a>`
+				popBox.innerHTML += str1;
+							
+		})
+		var oA = el.querySelector('#onA');
+		var popboxAll = el.querySelector('.pop-box'); 
+		el.onmouseenter = function(){
+			oA.style.color = '#ff7b3a';
+			popboxAll.style.display = 'block';
+		}
+		el.onmouseleave = function(){
+			oA.style.color = '#000';
+			popboxAll.style.display = 'none';
+		}
+		}
+		// var oA = el.querySelector('#onA');
+		// var popboxAll = el.querySelector('.pop-box'); 
+		// el.onmouseenter = function(){
+		// 	oA.style.color = '#ff7b3a';
+		// 	popboxAll.style.display = 'block';
+		// }
+		// el.onmouseleave = function(){
+		// 	oA.style.color = '#000';
+		// 	popboxAll.style.display = 'none';
+		// }
+		console.log(oA,popboxAll)	
+})
+
+
+
+
+
+
+
+
+
 
 
 	
