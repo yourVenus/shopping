@@ -1,0 +1,92 @@
+@charset "utf-8";
+.login-content{
+    padding: 200px 0;
+    overflow: hidden;
+    background: #fff;
+    //  登录部分
+    .login{
+        max-width: 1180px;
+        margin: 0 auto;
+        
+        overflow: hidden;
+        // 登录的图片
+        .login-img{
+            width: 700px;
+            height: 500px;
+            float: left;
+            background: url(http://www.anitoys.com/static/img/login-main-image.9ee0663.jpg) no-repeat 50% 50% #fff;
+            background-size: contain;
+        }
+        //登录表单
+        form{
+            float: left;
+            width: 370px;
+            margin-left:20px;
+            overflow: hidden;
+            //会员登录
+            .member-login{
+                width: 100%;
+                line-height: 100px;
+                margin-bottom: 11px;
+                overflow: hidden;
+                h1{
+                    padding: 0;
+                    margin: 0;
+                    line-height: 100px;
+                    font-size: 28px;
+                    font-weight: 800;
+                    float: left;
+                  
+                }
+                a{
+                    float: right;
+                    text-decoration: none;
+                    color: #888888;
+                    font-size: 14px;
+
+                }
+                a:hover{
+                    color: #ff7b3a;
+                }
+            }
+            .form-group{
+               input{
+                   height: 40px;
+               }
+            }
+            .fg{
+                position: relative;
+                img{
+                    position: absolute;
+                    right: 5px;
+                    top: 5px;
+                    height: 30px;
+                    width: 100px;
+                    border-radius: 2px;
+                    cursor: pointer;
+                }
+            }
+            //勾选框
+            .checkbox{
+                a{
+                    float:right;
+                    margin-right: 135px;
+                    text-decoration: none;
+                    color: black;
+                   font-weight: 800;
+                }
+                // a:hover{
+                //     color: #ff7b3a;
+                // }
+            }
+            //提交按钮
+            .btns{
+                width: 100%;
+                margin-top: 11px;
+                background: #ff6600;
+                color: #fff;
+                height: 38px;
+            }
+        }
+    }
+}

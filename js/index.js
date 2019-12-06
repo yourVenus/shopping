@@ -369,10 +369,11 @@ liS[6].onmouseleave = function(){
 var divItem = $('.item',menuContent);
 forEach(divItem,function(el,i){
 	var str = '';
-	var num = -1;
+	
+
 	if(i>1){
-		
-			str = `<div class="pop-box"></div>`
+		var str1 =''
+		str = `<div class="pop-box"></div>`
 		divItem[i].innerHTML+=str;
 		var popBox= divItem[i].querySelector('.pop-box');
 			forEach(oData.downmenu[i].type,function(tl,l){
@@ -385,22 +386,14 @@ forEach(divItem,function(el,i){
 		el.onmouseenter = function(){
 			oA.style.color = '#ff7b3a';
 			popboxAll.style.display = 'block';
+			
 		}
 		el.onmouseleave = function(){
 			oA.style.color = '#000';
 			popboxAll.style.display = 'none';
 		}
 		}
-		// var oA = el.querySelector('#onA');
-		// var popboxAll = el.querySelector('.pop-box'); 
-		// el.onmouseenter = function(){
-		// 	oA.style.color = '#ff7b3a';
-		// 	popboxAll.style.display = 'block';
-		// }
-		// el.onmouseleave = function(){
-		// 	oA.style.color = '#000';
-		// 	popboxAll.style.display = 'none';
-		// }
+		
 		console.log(oA,popboxAll)	
 })
 

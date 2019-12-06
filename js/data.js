@@ -778,6 +778,8 @@ var oData = {
 	{type:['服装','零钱包','手提包','双肩包','旅行箱']},{type:['演唱会','见面会','展览会']},
 	{type:['荧光棒','服装','徽章/挂件/钥匙圈','写真','手帕/毛巾','零钱包/手提包','其它周边']},
 	{type:['售后补件','费用',]},
-	{type:['Good Smile','Max Factory','Orange Rouge','Actoys','Hobbymax','MegaHouse','Myethos','Square-Enix','Union-Creative','三枪',]}]
-
+	{type:['Good Smile','Max Factory','Orange Rouge','Actoys','Hobbymax','MegaHouse','Myethos','Square-Enix','Union-Creative','三枪',]}
+],
+	//商品
+	brand:['全部','Good Smile Company','Good Smile Racing','Max Factory','Orange Rouge','GOOD SMILE ARTS上海','HiME ENTERTAINMENT','alphamax','ANIPLEX','AQUAMARINE','Avex Picture','ACTOYS','amiami','ALTER','Aforce','APEX','BellFine','BROCCOLI','BANPRESTO','CAPCOM','Di molto bene','DRAGON Toy','DIAMOND SELECT TOYS LLC','EMONTOYS','FineΦClover','FREEing','FuRyu','FLARE','Hobbymax','HobbymaxJapan','HOBBY STOCK','KADOKAWA','Kenelephant','Licorne','Medicos','MegaHouse','Myethos','MEDICOM TOY','ORCATOYS','Phat!','PLM','Proovy','QuesQ','REVOLVE','Square-Enix','Sol International','Sega Interactive','TAITO','Union-Creative','VERTEX','初霞文化','千值练','寿屋','天岸创奇文化创意','万代','万代南梦宫','其它品牌']
 };
