@@ -1,6 +1,228 @@
 @charset "utf-8";
+//全部商品
 .allshop{
     .allshop-content{
-        
+        width: 1180px;
+        margin: 0 auto;
+        .list{
+            height: 54px;
+            line-height: 54px;
+           
+            a{
+                text-decoration: none;
+                float: left;
+                font-weight: 800;
+                color: #999;
+            }
+        }
+    }
+}
+.allbelow{
+    font-size: 14px;
+    .allbelow-content{
+       
+        width: 1180px;
+        margin: 0 auto;
+        //类型
+        .category{
+            padding: 0 14px;
+            background: #fff;
+            margin-bottom: 12px;
+            -webkit-box-shadow:0 0 0 1px rgba(0,0,0,.02);
+            box-shadow:0 0 0 1px rgba(0,0,0,.02);
+            .item{
+                position: relative;
+                line-height: 34px;
+                padding: 7px 40px 7px 60px;
+                // height: 48px;
+               
+                b{
+                    position: absolute;
+                    left: 0;
+                    color: #aaa;
+                }
+                a{
+                    float: left;
+                    padding: 0 10px;
+                    color: #222;
+                    text-decoration: none;
+                    cursor: pointer;
+                    position: relative;
+                        input::before{
+                            content: "";
+                            position: absolute;
+                            top: -10px;
+                            left: -5px;
+                            width: 21px;
+                            height: 21px;
+                        }
+                        input[type='checkbox']{
+                           margin: 2px 4px 0 0;
+                            width: 16px;
+                            height: 16px;
+                            background-color: #fff;
+                            -webkit-appearance:none;
+                            border: 1px solid #c9c9c9;
+                            border-radius: 2px;
+                            outline: none;
+                            position: relative;
+                            top: 2px;
+                        }
+                }
+                a:nth-of-type(3){
+                    font-weight: 800;
+                    color: #ff6a2d;
+                }
+                a:hover{
+                    color: #ff6a2d;
+                }
+            }
+            .item::after{
+                content: "";
+                clear: both;
+                display: block;
+            }
+        }
+        //品牌
+        .brand{
+            padding: 0 14px;
+            background: #fff;
+            margin-bottom: 12px;
+            -webkit-box-shadow:0 0 0 1px rgba(0,0,0,.02);
+            box-shadow:0 0 0 1px rgba(0,0,0,.02);
+            .item{
+                position: relative;
+                line-height: 34px;
+                padding: 7px 40px 7px 60px;
+                
+                b{
+                    position: absolute;
+                    left: 0;
+                    color: #aaa;
+                }
+                a{
+                    float: left;
+                    padding: 0 10px;
+                    color: #222;
+                    text-decoration: none;
+                    cursor: pointer;
+                   
+                }
+                a:nth-of-type(1){
+                    font-weight: 800;
+                    color: #ff6a2d;
+                }
+                a:hover{
+                    color: #ff6a2d;
+                }
+            }
+            .item::after{
+                content: "";
+                clear: both;
+                display: block;
+            }
+        }
+        //排序
+        .sort{
+            padding: 0 14px;
+            background: #fff;
+            margin-bottom: 12px;
+            -webkit-box-shadow:0 0 0 1px rgba(0,0,0,.02);
+            box-shadow:0 0 0 1px rgba(0,0,0,.02);
+            .item{
+                position: relative;
+                line-height: 34px;
+                padding: 7px 40px 7px 60px;
+                b{
+                    position: absolute;
+                    left: 0;
+                    color: #aaa;
+                }
+                a{
+                    float: left;
+                    padding: 0 10px;
+                    color: #222;
+                    text-decoration: none;
+                    cursor: pointer;
+
+                   button:hover{
+                       color:#ff6a2d ;
+                   }
+                }
+              a:nth-of-type(1){
+                  button:hover{
+                    color:#fff;
+                  }
+              }
+                .active{
+                    background: #ff6a2d ;
+                    color:#fff;
+                    font-weight: 700;
+                }
+            }
+            
+            .item::after{
+                content: "";
+                clear: both;
+                display: block;
+            }
+        }
+    }
+}
+//商品内容
+.allshopcontent{
+    .shopcontent{
+        width: 1180px;
+        margin: 0 auto; 
+        .list{
+            padding: 10px 0;
+            margin: 0 -20px 0 0;
+            overflow: hidden;
+            .item{
+                float: left;
+                width: 280px;
+                height:376px;
+                background: #fff;
+                margin: 0 18px 20px 1px;
+                text-decoration: none;
+                position: relative;
+                cursor: pointer;
+                .cover{
+                    position: relative;
+                    padding: 10px;
+                    border-radius: 2px;
+                   
+                    overflow: hidden;
+                    img{
+                        display: block;
+                        width:100%;
+                        height:100%;
+                        object-fit: cover;
+                    }
+
+                }
+                .info-box{
+                    position: relative;
+                    padding: 10px 20px 0;
+                    overflow: hidden;
+                    h3{
+                        font-weight: 400;
+                        line-height: 20px;
+                        height: 40px;
+                        overflow: hidden;
+                        margin: 0;
+                        margin-bottom: 9px;
+                        font-size: 14px; 
+                        color: #222;  
+                    }
+                    .price{
+                        display: block;
+                        font-size: 14px;
+                        line-height: 26px;
+                        color: #ff7b39;
+                    }
+                }
+            }
+        }
     }
 }

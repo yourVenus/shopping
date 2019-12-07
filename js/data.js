@@ -781,5 +781,106 @@ var oData = {
 	{type:['Good Smile','Max Factory','Orange Rouge','Actoys','Hobbymax','MegaHouse','Myethos','Square-Enix','Union-Creative','三枪',]}
 ],
 	//商品
-	brand:['全部','Good Smile Company','Good Smile Racing','Max Factory','Orange Rouge','GOOD SMILE ARTS上海','HiME ENTERTAINMENT','alphamax','ANIPLEX','AQUAMARINE','Avex Picture','ACTOYS','amiami','ALTER','Aforce','APEX','BellFine','BROCCOLI','BANPRESTO','CAPCOM','Di molto bene','DRAGON Toy','DIAMOND SELECT TOYS LLC','EMONTOYS','FineΦClover','FREEing','FuRyu','FLARE','Hobbymax','HobbymaxJapan','HOBBY STOCK','KADOKAWA','Kenelephant','Licorne','Medicos','MegaHouse','Myethos','MEDICOM TOY','ORCATOYS','Phat!','PLM','Proovy','QuesQ','REVOLVE','Square-Enix','Sol International','Sega Interactive','TAITO','Union-Creative','VERTEX','初霞文化','千值练','寿屋','天岸创奇文化创意','万代','万代南梦宫','其它品牌']
+	brand:['全部','Good Smile Company','Good Smile Racing','Max Factory','Orange Rouge','GOOD SMILE ARTS上海','HiME ENTERTAINMENT','alphamax','ANIPLEX','AQUAMARINE','Avex Picture','ACTOYS','amiami','ALTER','Aforce','APEX','BellFine','BROCCOLI','BANPRESTO','CAPCOM','Di molto bene','DRAGON Toy','DIAMOND SELECT TOYS LLC','EMONTOYS','FineΦClover','FREEing','FuRyu','FLARE','Hobbymax','HobbymaxJapan','HOBBY STOCK','KADOKAWA','Kenelephant','Licorne','Medicos','MegaHouse','Myethos','MEDICOM TOY','ORCATOYS','Phat!','PLM','Proovy','QuesQ','REVOLVE','Square-Enix','Sol International','Sega Interactive','TAITO','Union-Creative','VERTEX','初霞文化','千值练','寿屋','天岸创奇文化创意','万代','万代南梦宫','其它品牌'],
+	//现货预售
+	advance:[{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191107/gv5c4msktf6cejvsasjszaazum9xpc2c.jpg',
+		type:'【包邮】喵隐忍者！火影忍者 木叶村愉快的猫咪们篇 附木叶的罐头套装',
+		Price:'368'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191107/85akayk5jn9w6ix9gkz6x980vrv4s7gv.jpg',
+		type:'【包邮】G.E.M.EX系列 精灵宝可梦 鬼系大集合！（附特典）',
+		Price:'755'
+	},
+	{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191107/3uq63bcqeh2jjoeo2lz8yod4ytt76stt.jpg',
+		type:'【包邮】G.E.M.系列 精灵宝可梦 玛奥＆甜舞妮（附特典）',
+		Price:'505'
+	},
+	{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191107/gdysehyawaxdb9ujbqyp9ow9mbnunr1g.jpg',
+		type:'【包邮】Lucrea 游戏王怪兽之决斗GX 天上院明日香（附特典）',
+		Price:'905'
+	},
+	{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191107/whkdgf7wcdgibabrkioer4gxrjh9o8nb.jpg',
+		type:'【包邮】GGG 机动武斗传G高达 深村玲（附特典）',
+		Price:'755'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191107/ou6espgw038wuw2oz9co7ws6zvia59i1.jpg',
+		type:'【包邮】Portrait.Of.Pirates 海贼王“限定版”船医 马尔高',
+		Price:'755'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191107/lmsl4yrm4d2awfo8ougho6mnw25a5um3.jpg',
+		type:'【包邮】喵隐忍者！火影忍者 木叶村愉快的猫咪们篇',
+		Price:'56'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191107/d34jj9il6n60vx6ijnpn7vaa5f6uybnh.jpg',
+		type:'【包邮】蚊香眼 搭档系列 Code Geass 反叛的鲁路修 鲁路修＆朱雀',
+		Price:'278'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191107/a0ny00cqyxxq7pah4vb1a8psjnesw8up.jpg',
+		type:'【包邮】蚊香眼 搭档系列 火影忍者 海野伊鲁卡＆漩涡鸣人',
+		Price:'278'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/sktl2md1rgtvt7j5an15oyxsi0k0wx5l.jpg',
+		type:'粘土人 空银子',
+		Price:'345'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191112/3w4q4jbmw7h2kldsyrgj6xcjb244xsxn.jpg',
+		type:'【包邮】伊东千岁 illustration by 40原 STD Ver.',
+		Price:'1139'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/ip2zgk36p2xuqgqpw375my6jqgfg1lb2.jpg',
+		type:'粘土人 刘昴星',
+		Price:'313'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/undvzoomtoh1orswevdc52wna0d4c7yw.jpg',
+		type:'粘土人Doll 洋服套装（多彩作业服）',
+		Price:'219'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20190919/o37xgwjrrimhnivpiv0vggiyf1q9lr0p.jpg',
+		type:'SNOW MIKU Snow Princess Ver.',
+		Price:'1610'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191127/mps56u9hhg4vc6c7sv5b3b03og21ltm9.jpg',
+		type:'各务原安昙',
+		Price:'1507'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191107/lbb8o8wb9vk2632czd4y486xfkvn8exf.jpg',
+		type:'【包邮】Q版角色！ 蚊香眼 Fate/Grand Order 第3弹',
+		Price:'57'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191009/tuz40vdak6t7jbr890e1suhd6w5y1zkw.jpg',
+		type:'【包邮】火影忍者GALS 火影忍者-疾风传- 小南',
+		Price:'882'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191009/g4fbro18mwkk10jrp8xctxxgo3fng9wq.jpg',
+		type:'【包邮】GGG 机动武斗传G高达 多蒙・卡修（附特典）',
+		Price:'830'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191009/f6bqpucyeb1ppdvmx7gylwxw9r0iz351.jpg',
+		type:'【包邮】G.E.M.系列 数码宝贝 八神太一＆亚古兽 20周年纪念版',
+		Price:'472'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191009/z9z5fy1k60npktvbucfs0apu9uq8m3ir.jpg',
+		type:'【包邮】G.E.M.系列 火影忍者-疾风传- 宇智波鼬（再版）',
+		Price:'830'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191009/oq0x0j303f2jdz9b6u1wuzbtdidhydyw.jpg',
+		type:'【包邮】G.E.M.系列 火影忍者-疾风传- 宇智波佐助 忍界大战Ver.',
+		Price:'895'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191025/5hks7fpjp3hwsypvep6lsmy4yms1pg3p.jpg',
+		type:'【包邮】《狐妖小红娘》手游 涂山雅雅',
+		Price:'698'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191114/6ymkupbsvnpq9i8tj6ll7xwt8veemfbp.jpg',
+		type:'【包邮】一番赏 超级赛亚人悟吉塔（爆裂大战）',
+		Price:'195'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191103/kvufdhsafd9bgjrx4qm5zg5fsmc3nff2.jpg',
+		type:'【包邮】一番赏 海贼王 匠之系谱 蒙奇·D·路飞',
+		Price:'209'
+	}]
 };

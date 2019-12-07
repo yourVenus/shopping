@@ -1,1 +1,207 @@
 @charset "utf-8";
+.allshop .allshop-content {
+  width: 1180px;
+  margin: 0 auto;
+}
+.allshop .allshop-content .list {
+  height: 54px;
+  line-height: 54px;
+}
+.allshop .allshop-content .list a {
+  text-decoration: none;
+  float: left;
+  font-weight: 800;
+  color: #999;
+}
+.allbelow {
+  font-size: 14px;
+}
+.allbelow .allbelow-content {
+  width: 1180px;
+  margin: 0 auto;
+}
+.allbelow .allbelow-content .category {
+  padding: 0 14px;
+  background: #fff;
+  margin-bottom: 12px;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.02);
+}
+.allbelow .allbelow-content .category .item {
+  position: relative;
+  line-height: 34px;
+  padding: 7px 40px 7px 60px;
+}
+.allbelow .allbelow-content .category .item b {
+  position: absolute;
+  left: 0;
+  color: #aaa;
+}
+.allbelow .allbelow-content .category .item a {
+  float: left;
+  padding: 0 10px;
+  color: #222;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+.allbelow .allbelow-content .category .item a input::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -5px;
+  width: 21px;
+  height: 21px;
+}
+.allbelow .allbelow-content .category .item a input[type='checkbox'] {
+  margin: 2px 4px 0 0;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  -webkit-appearance: none;
+  border: 1px solid #c9c9c9;
+  border-radius: 2px;
+  outline: none;
+  position: relative;
+  top: 2px;
+}
+.allbelow .allbelow-content .category .item a:nth-of-type(3) {
+  font-weight: 800;
+  color: #ff6a2d;
+}
+.allbelow .allbelow-content .category .item a:hover {
+  color: #ff6a2d;
+}
+.allbelow .allbelow-content .category .item::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.allbelow .allbelow-content .brand {
+  padding: 0 14px;
+  background: #fff;
+  margin-bottom: 12px;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.02);
+}
+.allbelow .allbelow-content .brand .item {
+  position: relative;
+  line-height: 34px;
+  padding: 7px 40px 7px 60px;
+}
+.allbelow .allbelow-content .brand .item b {
+  position: absolute;
+  left: 0;
+  color: #aaa;
+}
+.allbelow .allbelow-content .brand .item a {
+  float: left;
+  padding: 0 10px;
+  color: #222;
+  text-decoration: none;
+  cursor: pointer;
+}
+.allbelow .allbelow-content .brand .item a:nth-of-type(1) {
+  font-weight: 800;
+  color: #ff6a2d;
+}
+.allbelow .allbelow-content .brand .item a:hover {
+  color: #ff6a2d;
+}
+.allbelow .allbelow-content .brand .item::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.allbelow .allbelow-content .sort {
+  padding: 0 14px;
+  background: #fff;
+  margin-bottom: 12px;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.02);
+}
+.allbelow .allbelow-content .sort .item {
+  position: relative;
+  line-height: 34px;
+  padding: 7px 40px 7px 60px;
+}
+.allbelow .allbelow-content .sort .item b {
+  position: absolute;
+  left: 0;
+  color: #aaa;
+}
+.allbelow .allbelow-content .sort .item a {
+  float: left;
+  padding: 0 10px;
+  color: #222;
+  text-decoration: none;
+  cursor: pointer;
+}
+.allbelow .allbelow-content .sort .item a button:hover {
+  color: #ff6a2d ;
+}
+.allbelow .allbelow-content .sort .item a:nth-of-type(1) button:hover {
+  color: #fff;
+}
+.allbelow .allbelow-content .sort .item .active {
+  background: #ff6a2d ;
+  color: #fff;
+  font-weight: 700;
+}
+.allbelow .allbelow-content .sort .item::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.allshopcontent .shopcontent {
+  width: 1180px;
+  margin: 0 auto;
+}
+.allshopcontent .shopcontent .list {
+  padding: 10px 0;
+  margin: 0 -20px 0 0;
+  overflow: hidden;
+}
+.allshopcontent .shopcontent .list .item {
+  float: left;
+  width: 280px;
+  height: 376px;
+  background: #fff;
+  margin: 0 18px 20px 1px;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+.allshopcontent .shopcontent .list .item .cover {
+  position: relative;
+  padding: 10px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.allshopcontent .shopcontent .list .item .cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.allshopcontent .shopcontent .list .item .info-box {
+  position: relative;
+  padding: 10px 20px 0;
+  overflow: hidden;
+}
+.allshopcontent .shopcontent .list .item .info-box h3 {
+  font-weight: 400;
+  line-height: 20px;
+  height: 40px;
+  overflow: hidden;
+  margin: 0;
+  margin-bottom: 9px;
+  font-size: 14px;
+  color: #222;
+}
+.allshopcontent .shopcontent .list .item .info-box .price {
+  display: block;
+  font-size: 14px;
+  line-height: 26px;
+  color: #ff7b39;
+}

@@ -1,5 +1,10 @@
 var menuContent = $('.menu-content')[0];
 var swiper = $('#swiper2')[0];
+var brand = $('.brand')[0];
+var items = $('.item', brand)[0];
+var allshopcontent = $('.allshopcontent')[0];
+var lists = $('.list',allshopcontent)[0];
+console.log(brand,items)
 //菜单
 forEach(oData.menu, function(el, i) {
 	
@@ -45,4 +50,35 @@ forEach(divItem,function(el,i){
 		}
 		
 		console.log(oA,popboxAll)	
+})
+//品牌
+forEach(oData.brand,function(el,i){
+ var str ='';
+ str = `<a>${el}</a>`
+ items.innerHTML += str;
+})
+//全部商品
+forEach(oData.advance,function(el,i){
+	var As = document.createElement('a');
+	As.innerHTML +=`
+					<div class="cover">
+						<img src="${el.img}">
+					</div>
+					<div class="info-box">
+						<h3 >${el.type}</h3>
+						<b class="price">￥${el.Price}</b>
+					</div>
+					`
+	As.className = 'item'
+	lists.appendChild(As)
+	var hy = $('h3',As)[0];
+		As.onmouseenter =function(){
+			As.style.outline='1px solid #ff7b39'
+			hy.style.color = '#ff7b39';
+
+		}
+		As.onmouseleave = function(){
+			As.style.outline = 'none'
+			hy.style.color = '#222'
+		}
 })
