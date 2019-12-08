@@ -782,7 +782,7 @@ var oData = {
 ],
 	//商品
 	brand:['全部','Good Smile Company','Good Smile Racing','Max Factory','Orange Rouge','GOOD SMILE ARTS上海','HiME ENTERTAINMENT','alphamax','ANIPLEX','AQUAMARINE','Avex Picture','ACTOYS','amiami','ALTER','Aforce','APEX','BellFine','BROCCOLI','BANPRESTO','CAPCOM','Di molto bene','DRAGON Toy','DIAMOND SELECT TOYS LLC','EMONTOYS','FineΦClover','FREEing','FuRyu','FLARE','Hobbymax','HobbymaxJapan','HOBBY STOCK','KADOKAWA','Kenelephant','Licorne','Medicos','MegaHouse','Myethos','MEDICOM TOY','ORCATOYS','Phat!','PLM','Proovy','QuesQ','REVOLVE','Square-Enix','Sol International','Sega Interactive','TAITO','Union-Creative','VERTEX','初霞文化','千值练','寿屋','天岸创奇文化创意','万代','万代南梦宫','其它品牌'],
-	//现货预售
+	//新品预售
 	advance:[{
 		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191107/gv5c4msktf6cejvsasjszaazum9xpc2c.jpg',
 		type:'【包邮】喵隐忍者！火影忍者 木叶村愉快的猫咪们篇 附木叶的罐头套装',
@@ -882,5 +882,565 @@ var oData = {
 		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191103/kvufdhsafd9bgjrx4qm5zg5fsmc3nff2.jpg',
 		type:'【包邮】一番赏 海贼王 匠之系谱 蒙奇·D·路飞',
 		Price:'209'
+	}],
+	//新品第二页
+	secondpages:[{
+		img:'http://upload2016.anitoys.com/FpNTC2w4Auvio8TWzOAMEe9fep6m_l.jpg',
+		type:'Wake Up,Girls! 上海场限定官方周边帆布包',
+		Price:'130'
+	},{
+		img:'http://upload2016.anitoys.com/FsmRL5-TvKDIQ2FHyTt0L1ykuwmZ_l.jpg',
+		type:'Wake Up,Girls! 上海场限定官方周边 钥匙扣',
+		Price:'40'
+	},{
+		img:'http://upload2016.anitoys.com/FoEhMfUGzn4ny_IX2-BVvezqJ_Ox_l.jpg',
+		type:'Wake Up,Girls! 上海场限定官方周边 应援荧光棒',
+		Price:'250'
+	},{
+		img:'http://upload2016.anitoys.com/FpGDhxW6pG5vHsmdpyqdRbbJiPXD_l.jpg',
+		type:'Wake Up,Girls! 上海场限定官方周边 运动毛巾',
+		Price:'130'
+	},{
+		img:'http://upload2016.anitoys.com/FnT9MpDhVYKf7MnCR2WmxEP4NrcO_l.jpg',
+		type:'超像可动 泉新一＆米奇',
+		Price:'180'
+	},{
+		img:'http://upload2016.anitoys.com/FtBVg_MmQwj8Ty637BT9UIHHux6h_l.jpg',
+		type:'超像可动 迪奥·布兰德',
+		Price:'408'
+	},{
+		img:'http://upload2016.anitoys.com/FtSn0s077odYR-SveDstYOJdWl5l_l.jpg',
+		type:'172顺丰邮费补款一元拍（需要修改顺丰请先联系客服）',
+		Price:'1'
+	},{
+		img:'http://upload2016.anitoys.com/FoEhMfUGzn4ny_IX2-BVvezqJ_Ox_l.jpg',
+		type:'Wake Up,Girls! 上海场限定官方周边 应援荧光棒',
+		Price:'250'
+	},{
+		img:'http://upload2016.anitoys.com/FvzjDRS1V7yqHVYtXd0riLNcAi0b_l.jpg',
+		type:'顺丰邮费补款一元拍（需要修改顺丰请先联系客服）',
+		Price:'1'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/ofco49fhuzldxl17zhjc7vtqc4abfmqf.jpg',
+		type:'粘土人 艾玛',
+		Price:'287'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/bl3z36bg3z1b0sod2jzw3cxiw3m0o249.jpg',
+		type:'伊莉雅丝菲尔·冯·爱因兹贝伦 Prisma☆Klangfest Ver.',
+		Price:'1098'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/gs8xtk69b2ycoeiax2abgea3vae5a7me.jpg',
+		type:'泽村·斯潘塞·英梨梨（再贩）',
+		Price:'694'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/thdgiiizm7x9ztuqip3yg9sqf296qpme.jpg',
+		type:'粘土人 休比',
+		Price:'299'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/0v546aw3gwijydl041s82cfv5z6fcs88.jpg',
+		type:'粘土人 夜刀神十香（二次再贩）',
+		Price:'287'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/ck21640lncbmo3mi41u9ascenyujktmm.jpg',
+		type:'粘土人 四糸乃（二次再贩）',
+		Price:'287'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/kxnef5ioxujw3v5fcfcv5yxpowck5m42.jpg',
+		type:'粘土人 时崎狂三（二次再贩）',
+		Price:'287'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/gekazj7bakxfx07ewdhlr8wrmnjxit4x.jpg',
+		type:'一期一振',
+		Price:'824'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/5scdg0sb2lq286gdwl8yvmq5higuedao.jpg',
+		type:'粘土人 Saber EXTRA（再贩）',
+		Price:'251'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/s2a6qfzg5dfpx52gvk1t1ysuufctbzi4.jpg',
+		type:'“红”之Saber -莫德雷德-',
+		Price:'839'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/i9d9s7z821qkiwkvibct3mpnxxp0b9ay.jpg',
+		type:'艾莉莎・伊莉妮琪娜・奥美拉 深红的礼服Ver.',
+		Price:'1436'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/2so6c0abkbmjdjzaugtemf8x5fzy4ypb.jpg',
+		type:'粘土人 Doll Avenger/贞德〔Alter〕新宿 Ver.',
+		Price:'358'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/1pwy7p2gnax9au600atpvfr04k9h9q18.jpg',
+		type:'牧濑红莉栖 兔女郎 Ver.',
+		Price:'1422'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/2a3eik09oaq14arwvrv90flim0i7oa12.jpg',
+		type:'粘土人 暗游戏',
+		Price:'287'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191118/jn2he5cuygarb3fbcnbo3y2o9npud5rh.jpg',
+		type:'粘土人 石切丸',
+		Price:'281'
+	}],
+	//现货
+	goodistock:[{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191110/ykrhz6afdshkzuqgbese92qzsok8q106.jpg',
+		type:'心有灵犀！～八代拓&山下诚一郎～声优见面会in上海！',
+		Price:'499'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20191122/qefb9ibnb69si9mif6ya3r70h9mvdgnh.jpg',
+		type:'磯村勇斗2020上海粉丝见面会',
+		Price:'380'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20190822/fk22q1ctfvwe99yetmubielq1vhs5c36.jpg',
+		type:'MODEROID 魔神皇帝莱卡（补件）',
+		Price:'14'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20190712/5elsi1kqeaxridad849r12ggm1m2h0uo.jpg',
+		type:'chitocerium LXXVIII-platinum（补件）',
+		Price:'7'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20190715/vrcvlllt5abmcx230fmx0jahrpojxnec.jpg',
+		type:'MODEROID ARIEL C装备（补件）',
+		Price:'21'
+	},{
+		img:'http://upload2016.anitoys.com/FhFWUZzQxSbPpo_L6A9fnfuhHBQH_l.jpg',
+		type:'顺丰邮费补款一元拍（需要修改顺丰请先联系客服）',
+		Price:'1'
+	},{
+		img:'http://upload2016.anitoys.com/FiJQwDpfaFjWh6nYYZXxSw527lgg_l.jpg',
+		type:'顺丰邮费补款一元拍（需要修改顺丰请先联系客服）',
+		Price:'1'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20190723/wyq573rd3ak6fv3zre8p5czmg7mmfzby.jpg',
+		type:'【万代南梦宫授权】关于我转生变成史莱姆这档事巾着袋',
+		Price:'39'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20190723/w3zw8yrtoeve274brrxdd0manmzpcmca.jpg',
+		type:'【万代南梦宫授权】一拳超人挂绳-SD版',
+		Price:'49'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20190723/azb0exsg4wml5az16ddsyy3ta2glk14h.jpg',
+		type:'【万代南梦宫授权】一拳超人亚克力手机支架',
+		Price:'59'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20190723/dtd4c2rd47p25qz6kwx308dgjq2jcgx6.jpg',
+		type:'【万代南梦宫授权】一拳超人手机环扣',
+		Price:'69'
+	},{
+		img:'http://upload2016.anitoys.com/FhmatgCQ46NzLmRqym3cDINgECX__l.jpg',
+		type:'新世纪福音战士 EVA新剧场版 葛城美里',
+		Price:'760'
+	},{
+		img:'http://upload2016.anitoys.com/FodRPoYZU01A0GaLk_NCXfkSxTC5_l.jpg',
+		type:'Statue Legend 米德拉',
+		Price:'324'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20190712/fgyb9cp4y66uti9auu916rozkjnjd00d.jpg',
+		type:'MODEROID 鹤望兰（补件）',
+		Price:'14'
+	},{
+		img:'http://upload2016.anitoys.com/FhHn4M5HJCxz1y7x6A3z5TDyDKrc_l.jpg',
+		type:'超像挂件 石假面挂件',
+		Price:'80'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20190418/tf40fx00q8scd5pg2vfmtu8advtc9rt5.jpg',
+		type:'LINE FRIENDS布朗熊钥匙扣挂件',
+		Price:'60'
+	},{
+		img:'http://upload2016.anitoys.com/Fk6nW1KlWEUnoKpOl0F8pI3a3Uyd_l.jpg',
+		type:'【顺丰包邮】超像Art Collection 石假面',
+		Price:'1090'
+	},{
+		img:'http://upload2016.anitoys.com/Fpk0tAAeoFVuLf41qdltcKLma4fo_l.jpg',
+		type:'Statue Legend 银色战车',
+		Price:'320'
+	},{
+		img:'http://upload2016.anitoys.com/Fn_ldGyKzby-ce_1-3ljtsDnsZQ__l.jpg',
+		type:'Statue Legend 修特罗海姆',
+		Price:'292'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20190307/2gbdyfwzu4olx5q2rm5mq56hzobile3i.jpg',
+		type:'和田雅成-2019中国限定周边-透明应援扇',
+		Price:'35'
+	},{
+		img:'http://uploadv3.anitoys.com/anitoys/images/test/20190307/3gfg203s7pbhc1s67ftoj0knxkbnal8d.jpg',
+		type:'和田雅成-2019中国限定周边-亚克力立牌',
+		Price:'70'
+	},{
+		img:'http://upload2016.anitoys.com/Fss2_rlkvwPrAPFrVrW6RBHkZE86_l.jpg',
+		type:'Wake Up,Girls! 上海场限定官方周边T恤',
+		Price:'200'
+	}],
+	//鬼灭之刃
+	contentA:[{
+		title:"鬼灭之刃系列",
+		shop:[{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190924/8fkidl05nfd73x1jp8ht0umr2nqqhnc4.jpg',
+			type:'我妻善逸',
+			Price:'1224.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190924/bekma9890gfysqtr1wka26l0kaugvijp.jpg',
+			type:'鬼灭之刃 灶门祢豆子 1/8标准比例手办',
+			Price:'1182.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191018/n0e13a54bzg8mh4badvzmtlvhq2slsbj.jpg',
+			type:'【包邮】ARTFX J 鬼灭之刃 我妻善逸（附特典）',
+			Price:'580.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191009/mbc4ebd9jipn51idzpirbzmm73wcmzl8.jpg',
+			type:'【包邮】鬼灭之刃 ARTFX J 灶门炭治郎（附特典）',
+			Price:'570.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191009/z07h7a93psj52h58i361b9251t21rbct.jpg',
+			type:'【包邮】鬼灭之刃 ARTFX J 灶门祢豆子 （附特典）',
+			Price:'570.0'
+		}]
+	}],
+	//Fate系列
+	contentB:[{
+		title:"Fate系列",
+		shop:[{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191114/fisgle4o7wf89ao3b2y5j4ic154c3wdy.jpg',
+			type:'Saber/亚瑟・潘德拉贡〔Prototype〕 英灵正装 Ver.',
+			Price:'1116.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191114/9bfev4oy3jwaoja9myym7kqyq9ukcmtn.jpg',
+			type:'【包邮】Fate/Grand Order Lancer/斯卡哈',
+			Price:'954.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191112/f15l2bgfu65vd85nnwwwopjc8mw168sj.jpg',
+			type:'【包邮】Fate/EXTELLA 尼禄 真红情绪的暴君皇帝',
+			Price:'1169.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191112/if5cxoujg400vyau2c9d1c1q504ngfbf.jpg',
+			type:'Fate/Grand Order Duel-collection figure-第9弹',
+			Price:'600.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190930/j7qoi6stts9pytv3e2q87ojxp47oyvcj.jpg',
+			type:'君主・埃尔梅罗二世',
+			Price:'1360.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191017/fb0ybhuhayap10ixpypua8potzlba3gg.jpg',
+			type:'POP UP PARADE Saber/阿尔托莉雅・潘德拉贡[Lily] 第二再临',
+			Price:'253.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191107/lbb8o8wb9vk2632czd4y486xfkvn8exf.jpg',
+			type:'【包邮】Q版角色！ 蚊香眼 Fate/Grand Order 第3弹',
+			Price:'57.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191028/omfbjl9fz77efsyokrvmdox77rfw1p7j.jpg',
+			type:'吉尔伽美什',
+			Price:'1800.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191008/g8onci1e6i1ykzd2n3opkelf6862u2y9.jpg',
+			type:'粘土人 Archer/吉尔伽美什 第三再临 Ver.',
+			Price:'312.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190906/d09grwgocsnhsvq038zg0iroh6fo7530.jpg',
+			type:'【包邮】Desktop Army Fate/Grand Order 第4弹',
+			Price:'132.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190827/sri588nhcl2i1w3x9868q3tvdv9ibekl.jpg',
+			type:'figma Archer/贞德',
+			Price:'600.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190805/ntp3vhmizv9c6kiruebog9rie4pdvcte.jpg',
+			type:'粘土人 君主・埃尔梅罗Ⅱ世',
+			Price:'301.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190604/5tj1gg650r1b9q8oly5hv08jjsfiu76u.jpg',
+			type:'罗马尼・阿基曼',
+			Price:'821.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190719/hyx3vlte4b4h52euymunsyzbin1pclvx.jpg',
+			type:'粘土人 Avenger/贞德〔Alter〕新宿 Ver.',
+			Price:'303.0'
+		}]
+	}],
+	//粘土人系列
+	contentC:[{
+		title:"粘土人系列",
+		shop:[{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191205/o6eao2xujqt9bpbvbpzlmz168isa9i6w.jpg',
+			type:'粘土人 蕾雅大小姐（Lady Rhea)',
+			Price:'363.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/ip2zgk36p2xuqgqpw375my6jqgfg1lb2.jpg',
+			type:'粘土人 刘昴星',
+			Price:'313.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/iy6hqga8vkix5r9ar2vf1kuwchf1tdod.jpg',
+			type:'粘土人 浪巫谣',
+			Price:'389.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/sktl2md1rgtvt7j5an15oyxsi0k0wx5l.jpg',
+			type:'粘土人 空银子',
+			Price:'345.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/madcrugqibooup5vb57vh8h4ptm8rojy.jpg',
+			type:'粘土人 夏目贵志＆猫咪老师',
+			Price:'313.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/undvzoomtoh1orswevdc52wna0d4c7yw.jpg',
+			type:'粘土人Doll 洋服套装（多彩作业服）',
+			Price:'219.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191126/1z1xxz2mk9j822n16y6ong1loef0u1tl.jpg',
+			type:'粘土人 死神 经典皮肤·Edition',
+			Price:'326.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191125/mscy9ubxd44mlgcoqhqj7vq9io68p0gk.jpg',
+			type:'粘土人 喻文州（附特典）',
+			Price:'289.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191125/0y51250n6d71nblosx86tzy83uec5qcm.jpg',
+			type:'粘土人 巧克力',
+			Price:'320.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191125/k59d4uqsi5flgnuqzdefwrmsa8b0d2ek.jpg',
+			type:'粘土人 飞鸟桃子（附特典）',
+			Price:'345.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191114/xelce31qxkldxmrx1ftl5264d503jwux.jpg',
+			type:'粘土人 但丁 DMC5 Ver.',
+			Price:'408.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191114/2y39m27a02jmt7vsk18frygjz3oatvaf.jpg',
+			type:'粘土人 德国',
+			Price:'295.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191114/7o7gie06debnw0kx0uscm471ewvrq134.jpg',
+			type:'粘土人 魏无羡 夷陵老祖Ver.',
+			Price:'313.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191114/uuua7cr6n9lo77yne89klxwgwyv87hyf.jpg',
+			type:'粘土人 大蛇丸',
+			Price:'313.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191106/5bynsocp38bo9jbtr8qqt629csdyatrc.jpg',
+			type:'粘土人 周棋洛（附特典）',
+			Price:'269.0'
+		}]
+	}],
+	//figma系列
+	contentD:[{
+		title:"figma系列",
+		shop:[{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191202/gak82tqd09b5x8sjzyefl6fk537cix97.jpg',
+			type:'figma Navi（附特典）',
+			Price:'507.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/jm1wk8m28kspgx3b4pu1aldchdnlv4qx.jpg',
+			type:'figma Saber/亚瑟・潘德拉贡〔Prototype〕',
+			Price:'652.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191114/ay3vmc56ojtblqavdqtht4pqy9v5mdl0.jpg',
+			type:'figma Splatoon Boy DX Edition',
+			Price:'908.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191114/6gz0y99yq7w2jvr3tsr8hm76evqucgp4.jpg',
+			type:'figma Splatoon Boy',
+			Price:'448.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191106/eq0uh5dl7a7xup46odcq2inad9tf5mgz.jpg',
+			type:'figma 莲（附特典）',
+			Price:'579.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190927/ioxml8ct3p1cl9mccl6jyojt3ivuy5ic.jpg',
+			type:'figma 参',
+			Price:'750.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190925/g3jjfsjt8nr2w36c4avmgkkvulhkzcjc.jpg',
+			type:'figma 夹克校服（Emily）',
+			Price:'338.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190925/72k4mj9089ddrr0sibovn2ash7itwi2r.jpg',
+			type:'figma 夹克校服（Ryo）',
+			Price:'338.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190925/6o8ow42slxbdcgc09ezfuowrtxap55rk.jpg',
+			type:'figmaPLUS 教室（再贩）',
+			Price:'205.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190920/cqk8vwibxnex8289qnwduxqmli7arfbc.jpg',
+			type:'figma Berserker/贞德〔Alter〕',
+			Price:'600.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190905/z3n2c7fcb5lijymxbln8qnoq79fksp2u.jpg',
+			type:'figma 泳装男性body（Ryo）TYPE 2',
+			Price:'266.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190905/xxea6iun2vd44x4sipp9dcnneoxgq9q7.jpg',
+			type:'figma 泳装女性body（Emily） TYPE 2',
+			Price:'239.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190903/918lk0zwmu0hkvm5qbfmjs1s033yo9vm.jpg',
+			type:'figma 达克妮丝（附特典）',
+			Price:'578.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190827/sri588nhcl2i1w3x9868q3tvdv9ibekl.jpg',
+			type:'figma Archer/贞德',
+			Price:'600.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190822/m409og6amjfnkd6qith5wap85sjzyd7a.jpg',
+			type:'figma 小鸟游怜（附特典）',
+			Price:'724.0'
+		}]
+	}],
+	//等比例手办
+	contentE:[{
+		title:"等比例手办",
+		shop:[{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191205/0ajz8r8gj0d3vdcqwivfpltfhtrsw56r.jpg',
+			type:'博丽灵梦 唖采弦二 Ver.',
+			Price:'1241.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191205/uik983gmytx59yrackdzj8hw3vmyz42l.jpg',
+			type:'Medicchu 霞之丘诗羽',
+			Price:'269.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191205/ibk9ut66mq4l5qcnaiypz21z0y8lkcn3.jpg',
+			type:'夜刀神十香',
+			Price:'1116.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191202/434hl4nftbbfp6pf06q33mf1nvmk30g1.jpg',
+			type:'因幡巡',
+			Price:'1309.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191202/9fpbv845cfeq0btmvy2mabvf5oeihs1a.jpg',
+			type:'CFB 怪物猎人雕像 第16弹',
+			Price:'480.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/8czcy0rfq3aqb1wprga73ba9dedqmx1n.jpg',
+			type:'阿库娅 原作版泳装Ver.',
+			Price:'1094.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/ms7w9oysnz5sxvwx7hs5x8ymf5rgjmii.jpg',
+			type:'时崎狂三 私服 ver.',
+			Price:'1207.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191114/fisgle4o7wf89ao3b2y5j4ic154c3wdy.jpg',
+			type:'Saber/亚瑟・潘德拉贡〔Prototype〕 英灵正装 Ver.',
+			Price:'1116.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191114/iy7y6kd17tsv16fiaf40u98yweg75u36.jpg',
+			type:'赫斯缇雅 兔女郎Ver.',
+			Price:'1897.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191114/nbxfzda4oalyqqm0bcapczyddtewp5bp.jpg',
+			type:'艾丝·华伦斯坦 兔女郎Ver.',
+			Price:'1669.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191106/5n1ymoa7x3q8ni3e1pr6un5fl127cw6q.jpg',
+			type:'二宫椎菜',
+			Price:'1332.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191031/kvtf2h8649mba0kb1k5rsg6dqnkzmgja.jpg',
+			type:'千夜 难以言喻的兔女郎Ver.',
+			Price:'1053.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191017/papcg0yu6hnt2wjs4fafydkt08az31yl.jpg',
+			type:'加藤惠 裸足兔女郎Ver.',
+			Price:'1414.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191017/fb0ybhuhayap10ixpypua8potzlba3gg.jpg',
+			type:'POP UP PARADE Saber/阿尔托莉雅・潘德拉贡[Lily] 第二再临',
+			Price:'253.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191008/fss8vf4nn643go35a127inc8bzjtjxll.jpg',
+			type:'食蜂操祈',
+			Price:'1057.0'
+		}]
+	}],
+	//盒蛋
+	contentF:[{
+		title:"盒蛋",
+		shop:[{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191112/cp9r8aevasay2nr2qv9rl24tye5gc3tq.jpg',
+			type:'【包邮】一人之下盒蛋（附套装特典）',
+			Price:'49.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191112/if5cxoujg400vyau2c9d1c1q504ngfbf.jpg',
+			type:'Fate/Grand Order Duel-collection figure-第9弹',
+			Price:'600.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191112/i6d63n28inkakcv4vjz6gy545emyjscb.jpg',
+			type:'PUTITTO「名侦探柯南 盒蛋ver.4」',
+			Price:'400.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191107/d34jj9il6n60vx6ijnpn7vaa5f6uybnh.jpg',
+			type:'【包邮】蚊香眼 搭档系列 Code Geass 反叛的鲁路修 鲁路修＆朱雀',
+			Price:'278.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191107/lbb8o8wb9vk2632czd4y486xfkvn8exf.jpg',
+			type:'包邮】Q版角色！ 蚊香眼 Fate/Grand Order 第3弹',
+			Price:'57.0'
+		}]
+	}],
+	//景品
+	contentG:[{
+		title:"景品",
+		shop:[{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191128/fe75g8v26j1ce069jreqyahqa6fu2kid.jpg',
+			type:'Pocket Maquette 佐贺偶像是传奇 02',
+			Price:'280.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191114/h3ps2irsslpdyhj04z73uvs9bqku3y5g.jpg',
+			type:'【包邮】一番赏 No.02 索隆',
+			Price:'260.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191114/6ymkupbsvnpq9i8tj6ll7xwt8veemfbp.jpg',
+			type:'包邮】一番赏 超级赛亚人悟吉塔（爆裂大战）',
+			Price:'195.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191104/44o5uv5xjzchec87ii8zerlojm78xtrr.jpg',
+			type:'【包邮】景品 Re:从零开始的异世界生活 蕾姆～原创樱花形象ver.～',
+			Price:'105.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191104/gcbtj7lah42bla9rn11fnlk6ucgx4es5.jpg',
+			type:'【包邮】景品 樱未来 新绘插画手办 2020ver.',
+			Price:'105.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191103/m99eaqouzjdvdazyddmrz8koie957eki.jpg',
+			type:'【包邮】一番赏 海贼王 匠之系谱 萨波',
+			Price:'209.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191103/sc892pr9fu6ojy3tuljznjf1isr0ae29.jpg',
+			type:'【包邮】一番赏 海贼王 匠之系谱 波特卡斯·D·艾斯',
+			Price:'209.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191103/kvufdhsafd9bgjrx4qm5zg5fsmc3nff2.jpg',
+			type:'【包邮】一番赏 海贼王 匠之系谱 蒙奇·D·路飞',
+			Price:'209.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191010/1njgdiudg7idlj7en0m5fq8ddx57ta83.jpg',
+			type:'包邮】景品 初音未来 原创冬服ver.～Renewal～',
+			Price:'105.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20191014/x8fbb0bxu0fr40p6g59z7bzn44sxolu2.jpg',
+			type:'【包邮】一番赏 萨波',
+			Price:'230.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190930/jfpxhyckdp09ix8ix2y9l3ttdmslqkah.jpg',
+			type:'【包邮】一番赏 A赏 SOFVICS 假面骑士零一 高跃蝗虫',
+			Price:'315.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190929/8ja3efivaavvjvcwomo7hmb148kdt9qs.jpg',
+			type:'【包邮】景品 初音未来 冬季形象Ver.',
+			Price:'105.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190929/0x7asg0f58eibtgkbfcp5sldx5kzjo4a.jpg',
+			type:'【包邮】景品 Re：从零开始的异世界生活 蕾姆 ～原创看板娘Ver.～',
+			Price:'105.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190826/i35uhfr3c1g40acu1dm3k9tdwa1o97mk.jpg',
+			type:'【包邮】景品 初音未来 冬季演唱会 镜音连',
+			Price:'105.0'
+		},{
+			img:'http://uploadv3.anitoys.com/anitoys/images/test/20190823/mf940330p2fmdfmusjohjrzgs84x744f.jpg',
+			type:'【包邮】景品 Re:从零开始的异世界生活 蕾姆～原创连衣裤泳装Ver.～',
+			Price:'105.0'
+		}]
 	}]
+
 };

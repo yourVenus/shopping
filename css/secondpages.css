@@ -242,7 +242,3 @@
 .paging a:hover {
   color: #ff6a2d;
 }
-.paging a[disabled] {
-  pointer-events: none;
-  opacity: .5;
-}

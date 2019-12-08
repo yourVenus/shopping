@@ -1,0 +1,641 @@
+@charset "utf-8";
+.banner-boxt {
+  overflow: hidden;
+}
+.banner-boxt .banner-content {
+  width: 1180px;
+  padding: 20px 0 60px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+.banner-boxt .banner-content nav {
+  float: left;
+  padding: 0 10px;
+  background: #fff;
+  height: 430px;
+}
+.banner-boxt .banner-content nav h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  line-height: 56px;
+  -webkit-box-shadow: 0 1px 0 #dedede;
+  box-shadow: 0 1px 0 #dedede;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.banner-boxt .banner-content nav a {
+  display: block;
+  width: 160px;
+  height: 76px;
+  position: relative;
+  margin-bottom: 10px;
+  background: #222;
+  cursor: pointer;
+}
+.banner-boxt .banner-content nav a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.banner-boxt .banner-content .banner {
+  width: 980px;
+  height: 430px;
+  background: greenyellow;
+  float: right;
+}
+.threeflorr-shop {
+  margin-top: 15px;
+  background: #fff;
+}
+.threeflorr-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.threeflorr-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.threeflorr-shop .content .list {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.threeflorr-shop .content .list .item {
+  text-align: center;
+  float: left;
+  width: 228px;
+  height: 268px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px 10px 0px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.threeflorr-shop .content .list .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.threeflorr-shop .content .list .item a img {
+  object-fit: cover;
+  width: 100%;
+  height: 229px;
+  display: block;
+  border-bottom: 1px solid  #f6f6f6;
+}
+.threeflorr-shop .content .list .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+  transition: 0.3s;
+}
+.threeflorr-shop .content .list .item a .info-box h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0 20px;
+  height: 18px;
+  margin-bottom: 23px;
+}
+.threeflorr-shop .content .list .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fourfloor-shop {
+  margin-top: 15px;
+}
+.fourfloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.fourfloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.fourfloor-shop .content .list-one {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.fourfloor-shop .content .list-one .item {
+  text-align: center;
+  float: left;
+  width: 228px;
+  height: 268px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px 10px 0px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.fourfloor-shop .content .list-one .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.fourfloor-shop .content .list-one .item a img {
+  object-fit: cover;
+  width: 100%;
+  height: 229px;
+  display: block;
+  border-bottom: 1px solid  #f6f6f6;
+}
+.fourfloor-shop .content .list-one .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+  transition: 0.3s;
+}
+.fourfloor-shop .content .list-one .item a .info-box h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0 20px;
+  height: 18px;
+  margin-bottom: 23px;
+}
+.fourfloor-shop .content .list-one .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fivefloor-shop {
+  margin-top: 15px;
+  background: #fff;
+}
+.fivefloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.fivefloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.fivefloor-shop .content .list-two {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.fivefloor-shop .content .list-two .item {
+  text-align: center;
+  float: left;
+  width: 228px;
+  height: 268px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px 10px 0px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.fivefloor-shop .content .list-two .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.fivefloor-shop .content .list-two .item a img {
+  object-fit: cover;
+  width: 100%;
+  height: 229px;
+  display: block;
+  border-bottom: 1px solid  #f6f6f6;
+}
+.fivefloor-shop .content .list-two .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+  transition: 0.3s;
+}
+.fivefloor-shop .content .list-two .item a .info-box h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0 20px;
+  height: 18px;
+  margin-bottom: 23px;
+}
+.fivefloor-shop .content .list-two .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sixfloor-shop {
+  margin-top: 15px;
+}
+.sixfloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.sixfloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.sixfloor-shop .content .list-three {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.sixfloor-shop .content .list-three .item {
+  text-align: center;
+  float: left;
+  width: 228px;
+  height: 268px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px 10px 0px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.sixfloor-shop .content .list-three .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.sixfloor-shop .content .list-three .item a img {
+  object-fit: cover;
+  width: 100%;
+  height: 229px;
+  display: block;
+  border-bottom: 1px solid  #f6f6f6;
+}
+.sixfloor-shop .content .list-three .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+  transition: 0.3s;
+}
+.sixfloor-shop .content .list-three .item a .info-box h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0 20px;
+  height: 18px;
+  margin-bottom: 23px;
+}
+.sixfloor-shop .content .list-three .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sevenfloor-shop {
+  margin-top: 15px;
+  background: #fff;
+}
+.sevenfloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.sevenfloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.sevenfloor-shop .content .list-four {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.sevenfloor-shop .content .list-four .item {
+  text-align: center;
+  float: left;
+  width: 228px;
+  height: 268px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px 10px 0px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.sevenfloor-shop .content .list-four .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.sevenfloor-shop .content .list-four .item a img {
+  object-fit: cover;
+  width: 100%;
+  height: 229px;
+  display: block;
+  border-bottom: 1px solid  #f6f6f6;
+}
+.sevenfloor-shop .content .list-four .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+  transition: 0.3s;
+}
+.sevenfloor-shop .content .list-four .item a .info-box h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0 20px;
+  height: 18px;
+  margin-bottom: 23px;
+}
+.sevenfloor-shop .content .list-four .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.eightfloor-shop {
+  margin-top: 15px;
+}
+.eightfloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.eightfloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.eightfloor-shop .content .list-five {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.eightfloor-shop .content .list-five .item {
+  text-align: center;
+  float: left;
+  width: 228px;
+  height: 268px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px 10px 0px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.eightfloor-shop .content .list-five .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.eightfloor-shop .content .list-five .item a img {
+  object-fit: cover;
+  width: 100%;
+  height: 229px;
+  display: block;
+  border-bottom: 1px solid  #f6f6f6;
+}
+.eightfloor-shop .content .list-five .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+  transition: 0.3s;
+}
+.eightfloor-shop .content .list-five .item a .info-box h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0 20px;
+  height: 18px;
+  margin-bottom: 23px;
+}
+.eightfloor-shop .content .list-five .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ninefloor-shop {
+  margin-top: 15px;
+  background: #fff;
+}
+.ninefloor-shop .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.ninefloor-shop .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.ninefloor-shop .content .list-six {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.ninefloor-shop .content .list-six .item {
+  text-align: center;
+  float: left;
+  width: 228px;
+  height: 268px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px 10px 0px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+.ninefloor-shop .content .list-six .item a {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.ninefloor-shop .content .list-six .item a img {
+  object-fit: cover;
+  width: 100%;
+  height: 229px;
+  display: block;
+  border-bottom: 1px solid  #f6f6f6;
+}
+.ninefloor-shop .content .list-six .item a .info-box {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: -43px;
+  right: 0;
+  transition: 0.3s;
+}
+.ninefloor-shop .content .list-six .item a .info-box h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  margin-top: 10px;
+  line-height: 18px;
+  padding: 0 20px 0 20px;
+  height: 18px;
+  margin-bottom: 23px;
+}
+.ninefloor-shop .content .list-six .item a .info-box b {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 0 10px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.twelvefloor-shops {
+  margin-top: 15px;
+}
+.twelvefloor-shops .content {
+  width: 1180px;
+  padding: 20px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.twelvefloor-shops .content h3 {
+  font-size: 23px;
+  color: black;
+  font-weight: 800;
+}
+.twelvefloor-shops .content .list-nine {
+  margin-top: 20px;
+  overflow: hidden;
+  width: 1190px;
+}
+.twelvefloor-shops .content .list-nine .item-left {
+  float: left;
+  width: 430px;
+  height: 240px;
+  margin-right: 10px;
+}
+.twelvefloor-shops .content .list-nine .item-left a {
+  overflow: hidden;
+  height: 110px;
+  width: 100%;
+}
+.twelvefloor-shops .content .list-nine .item-left a img {
+  display: block;
+  height: 110px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.twelvefloor-shops .content .list-nine .items {
+  float: left;
+  width: 240px;
+  height: 230px;
+  margin-right: 10px ;
+  background: url(http://uploadv3.anitoys.com/anitoys/images/test/20190214/zepulwe9pk64n4zqt336v47tkxmkqx06.png) no-repeat 50% 50%;
+  background-size: cover;
+  padding: 45px 20px;
+}
+.twelvefloor-shops .content .list-nine .items a {
+  overflow: hidden;
+  text-decoration: none;
+}
+.twelvefloor-shops .content .list-nine .item {
+  float: left;
+  width: 240px;
+  height: 230px;
+  margin-right: 10px ;
+}
+.twelvefloor-shops .content .list-nine .item a {
+  width: 100%;
+  height: 100%;
+  background: url(http://uploadv3.anitoys.com/anitoys/images/test/20190730/avxsyclx2rtuis7nnjzxa26u7gr84dm9.png) no-repeat 50% 50%;
+  background-size: cover;
+  padding: 45px 20px;
+  display: block;
+  text-decoration: none;
+}
+.twelvefloor-shops .content .list-nine .item a h3 {
+  font-size: 26px;
+  font-weight: 600px;
+  text-align: right;
+  line-height: 28px;
+  color: #000;
+}
+.twelvefloor-shops .content .list-nine .item a p {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right;
+  line-height: 28px;
+  color: #000;
+}
