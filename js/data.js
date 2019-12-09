@@ -1441,6 +1441,10 @@ var oData = {
 			type:'【包邮】景品 Re:从零开始的异世界生活 蕾姆～原创连衣裤泳装Ver.～',
 			Price:'105.0'
 		}]
-	}]
-
+	}],
+	//跳转
+	website:['newproducts.html','goodsinstock.html','garagekit.html','newproducts.html','newproducts.html','newproducts.html','newproducts.html','newproducts.html','newproducts.html','newproducts.html','newproducts.html','newproducts.html'],
+	//商品详情
+	details:['http://www.anitoys.com/product/A2370T5T7Y.html']
 };
+

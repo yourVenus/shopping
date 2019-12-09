@@ -31,25 +31,25 @@
                              <a href="login.html"target= "_self">已注册，去登录</a>
                         </div>
                         <div class="form-group">
-                                <input type="text" class="form-control" id="name" placeholder="用户名/邮箱地址/已验证手机号">
+                                <input type="text" class="form-control" id="username" placeholder="用户名/邮箱地址/已验证手机号">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" id="name" placeholder="填写密码">
+                            <input type="password" class="form-control" id="password" placeholder="填写密码">
                             </div>
                             <div class="form-group">
-                                    <input type="text" class="form-control" id="name" placeholder="再次确认密码">
+                                    <input type="password" class="form-control" id="confirm" placeholder="再次确认密码">
                                     </div>
                         <div class="form-group fg">
-                            <input type="text" class="form-control" id="name" placeholder="验证码">
+                            <input type="text" class="form-control" id="verification" placeholder="验证码">
                             <img src="http://www.anitoys.com/api/user/reg/rand?1575609078151" alt="">
                             </div>
                         <div class="checkbox">
                             <label>
-                                <input type="checkbox">我已阅读并同意
+                                <input type="checkbox" id="check">我已阅读并同意
                             </label>
                             <a href="">《会员注册协议》</a>
                             </div>
-                            <button type="submit" class="btn  btns">立即注册</button>
+                            <a  target="_self" class="btn  btns" id="button">立即注册</a>
                     </form>
                 </div>
                
@@ -77,6 +77,6 @@
                 </footer>
         </div>
     </div>
-    <script type="text/javascript" src="../js/login.js"></script>
+    <script type="text/javascript" src="../js/register.js"></script>
 </body>
 </html>

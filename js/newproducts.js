@@ -7,11 +7,11 @@ var lists = $('.list',allshopcontent)[0];
 console.log(brand,items)
 //菜单
 forEach(oData.menu, function(el, i) {
-	
+	var jump = oData.website;
 	var div = document.createElement('div');
 	div.innerHTML +=
 					  `
-						<a href="" id = "onA">
+						<a href="${jump[i]}" id = "onA">
 						<i style="background:url(${oData.menu[i].imgs})no-repeat 50% 50%;background-size:24px 24px;"></i>
 						<b>${oData.menu[i].text}</b>
 						</a>

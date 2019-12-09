@@ -22,11 +22,11 @@ var listTen = $('.list-ten')[0];
 //console.log(oData,swiper,swiperWrapper)
 //菜单
 forEach(oData.menu, function(el, i) {
-	
+	var jump = oData.website;
 	var div = document.createElement('div');
 	div.innerHTML +=
 					  `
-						<a href="" id = "onA">
+						<a href="${jump[i]}" id = "onA">
 						<i style="background:url(${oData.menu[i].imgs})no-repeat 50% 50%;background-size:24px 24px;"></i>
 						<b>${oData.menu[i].text}</b>
 						</a>
@@ -103,11 +103,11 @@ swiperWrapperTwo.appendChild(div);
 })
 //3f
 forEach(oData.contentThf[0].shop,function(el,i){
-	
+	var cats = oData.details;
 	var div = document.createElement('div');
 	div.innerHTML = `
 				
-						<a href=""><img src="${oData.contentThf[0].shop[i].img}">
+						<a href="${ oData.details}"  target="_blank"><img src="${oData.contentThf[0].shop[i].img}">
 						<div class="info-box">
 						<h3>${oData.contentThf[0].shop[i].type}</h3>
 						<b class="price">￥${oData.contentThf[0].shop[i].Price}</b>

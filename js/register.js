@@ -26,11 +26,12 @@ var btn = document.getElementById('button');
 var usr = document.getElementById('username');
 var verif = document.getElementById('verification');
 var pasw = document.getElementById('password');
+var cof = document.getElementById('confirm');
+var checks = document.getElementById('check')
 console.log(btn,usr,verif,pasw)
 btn.onclick = function(){
 	var value = usr.value;
 	//判断账号输入框是否为空
-	setCookie(usr,value);
 	if(value.trim()){
 		//用户名正则，4到16位（字母，数字，下划线，减号）
 		var name = /^[a-zA-Z0-9_-]{4,16}$/;
@@ -41,20 +42,31 @@ btn.onclick = function(){
 		//判断用户输入账号的格式
 		if(call.test(value) || name.test(value) || emil.test(value)){
 			var valuep = pasw.value;
-			setCookie(pasw,valuep);
 			//判断是否输入密码
 			if(valuep.trim()){
 				//至少8个字符，至少1个大写字母，1个小写字母和1个数字,不能包含特殊字符（非数字字母）：
 				var pPattern =/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[^]{8,16}$/;
 				if(pPattern.test(valuep)){
-					var valuev = verif.value;
-					//判断是否输入验证码
-					if(valuev.trim()){
-						alert(value+'欢迎回来ヾ(≧▽≦*)o')
-						window.location.href = "index.html";	
-					}else{
-						alert('请输入验证码')
-					}
+                    var valuec = cof.value;
+                    //确认密码
+                    if(valuec == valuep){
+                        var valuev = verif.value;
+                        //判断是否输入验证码
+                        if(valuev.trim()){  
+                            if(check.checked){
+                                alert('注册成功，赶紧去登录吧( •̀ ω •́ )y');
+                                
+                                window.location.href = "login.html";	
+                            } else{
+                                alert('请勾选')
+                            }
+                        }else{
+                            alert('请输入验证码')
+                        }
+                    }else{
+                        alert('两次输入的密码不一致')
+                    }
+					
 				}else{
 					alert('密码错误：至少8个字符，至少1个大写字母，1个小写字母和1个数字,不能包含特殊字符（非数字字母）')
 				} 
@@ -67,11 +79,4 @@ btn.onclick = function(){
 	}else{
 		alert('请输入账号')
 	}
-	
-}
-function setCookie(name,value) {
-    var Days = 30;
-    var exp = new Date();
-    exp.setTime(exp.getTime() + Days*24*60*60*1000);
-    document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
 }
