@@ -1445,6 +1445,12 @@ var oData = {
 	//跳转
 	website:['newproducts.html','goodsinstock.html','garagekit.html','newproducts.html','newproducts.html','newproducts.html','newproducts.html','newproducts.html','newproducts.html','newproducts.html','newproducts.html','newproducts.html'],
 	//商品详情
-	details:['http://www.anitoys.com/product/A2370T5T7Y.html']
+	details:['commodity.html'],
+	//规范参数
+	parameter:[{title:'品牌',type:'GOOD SMILM ARTS上海'},{title:'上架时间',type:'2019年11月28日'},{title:'发售日期',type:'2020年7月'},{title:'角色名',type:'刘昴星'},{title:'作品名',type:'厨神小当家'},{title:'原型制作',type:'七兵衡'},{title:'制作协力',type:'Nendoron'},{title:'彩色涂装',type:'乳牛'},{title:'商品说明',type:'ABS&PVC制 涂装完成可动手办・非标准比例・附带专用底座・全高：约100mm'},{title:'生产商',type:'GOOD SMILM ARTS上海'},{title:'销售商',type:'GOOD SMILM Company'},{title:'版权',type:' ©Etsushi Ogawa,KODANSHA/True Cooking Master Boy Project.'}],
+	//列表
+	information:[{type:'系列分类',title:['粘土人','粘土人More','粘土人Co-de','粘土人Playset','粘土人Plus','粘土人Doll','小粘土','figma','figFIX','标准比例手办','盒蛋/扭蛋']},{type:'热门作品',title:['Fate系列','刀剑乱舞','刀剑神域','精灵宝可梦','女神异闻录','排球少年!!','兽娘动物园','守望先锋','全职高手']},{type:'热门品牌',title:['GoodSmile Company','GOOD SMILE ARTS上海','Good Smile Racing','Max Factory','Orange Rouge','FREEing','Aniplex','AQUAMARINE','BANDAI NAMCO Arts','BELLFINE','Broccoli','Bushiroad','CAPCOM','chara-ani','D 8 H','Easy Eight','Di molto bene','EMONTOYS','FineΦClover','Games Workshop','Genco','Gift','Hobby Stock','Hyper Alloy','JYUROKUHOUI','KADOKAWA','MAGIC MOULD','MEDICOS','Mini Egg Attack','OrcaToys','PenguinParade','REVOLVE','Phat！','PLATZ','PLM','PLUM','PULCHRA','Sega Interactive','Sol International','Stronger','Surfersparadise','Synapse.inc','TAKARA TOMY','TOMY TEC','TRIKT','Vertex','WING','With Fans!','Wonderful Works','回天堂','海洋堂','京商','梦-精选','双翼社','天闻角川','千值练','MEDICOS ENTERTAINMENT','ALUMINA','Arclight','光棱','brokker']}],
+	//商品详情导航
+	strip:['店铺首页','预售限售','现货商品','粘土人','figma','标准比例手办','WF2019夏','新模型展示','合作店铺']
 };
 

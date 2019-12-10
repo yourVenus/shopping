@@ -74,7 +74,7 @@ forEach(oData.contentZf,function(el,i){
 })
 //1F 人气商品
 	//console.log(oData.contentOf[0].shop)
-	forEach(oData.contentOf[0].shop,function(hl,i){
+forEach(oData.contentOf[0].shop,function(hl,i){
 		var div = document.createElement('div');
 	div.innerHTML = `
 					

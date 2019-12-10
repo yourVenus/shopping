@@ -12,6 +12,7 @@ var listSeven = $('.list-seven')[0];
 var listEight = $('.list-eight')[0];
 var listNine=$('.list-nine')[0];
 var listTen = $('.list-ten')[0];
+var listTen = $('.list-ten')[0];
 //console.log(oData.contentFourt[2].type[2])
 //console.log(oData,swiper,swiperWrapper)
 //菜单
@@ -306,6 +307,10 @@ forEach(divItem,function(el,i){
 		
 		console.log(oA,popboxAll)	
 })
+
+
+
+
 
 
 
